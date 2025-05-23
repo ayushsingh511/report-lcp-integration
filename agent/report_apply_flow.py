@@ -122,6 +122,21 @@ class ReportApplyFlow:
         
         print(f"✅ Found {len(suggestions)} suggestions")
         self.suggestions = suggestions
+        
+        # Save structured suggestions to JSON file
+        if suggestions and self.output_dir:
+            # Save the YAML response
+            yaml_file = self.output_dir / "suggestions.yaml"
+            with open(yaml_file, 'w') as f:
+                f.write(yaml_response)
+            print(f"💾 Saved YAML suggestions to: {yaml_file}")
+            
+            # Save the parsed JSON version
+            suggestions_file = self.output_dir / "parsed_suggestions.json"
+            with open(suggestions_file, 'w') as f:
+                json.dump(suggestions, f, indent=2)
+            print(f"💾 Saved structured suggestions to: {suggestions_file}")
+        
         return suggestions
     
     def apply_suggestions(self):

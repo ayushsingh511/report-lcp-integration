@@ -1,18 +1,18 @@
 # Core dependencies
-python-dotenv>=1.0.0
+python-dotenv==1.0.1
 asyncio
 argparse
 
 # Agent dependencies
-crewai>=0.1.0
-crewai-tools>=0.1.0
-langchain-openai
-playwright>=1.40.0
-httpx
-beautifulsoup4>=4.12.0
-aider-chat>=0.1.0
-pyyaml>=6.0
-pydantic>=2.0.0
+crewai==0.76.9
+crewai-tools==0.14.0
+langchain-openai==0.2.3
+playwright==1.47.0
+httpx==0.26.0
+beautifulsoup4==4.12.3
+aider-chat==0.40.1
+pyyaml==6.0.2
+pydantic==2.10.3
 
 # Performance and analysis
 litellm>=1.0.0
@@ -22,4 +22,6 @@ undici
 # Development
 pytest>=7.0.0
 black>=23.0.0
-flake8>=6.0.0 
+flake8>=6.0.0
+streamlit==1.40.2
+pandas==2.2.3 

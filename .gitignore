@@ -12,6 +12,9 @@ reports
 # Output directory (contains optimized assets with git repos)
 output/
 
+# Final output directory with all results
+final_output/
+.aider.tags.cache.v4
 # Reports directory - you may want to commit some reports
 # Uncomment the line below if you want to ignore all reports
 # reports/

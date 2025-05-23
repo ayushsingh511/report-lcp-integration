@@ -9,6 +9,8 @@ import sys
 import os
 from pathlib import Path
 from urllib.parse import urlparse
+import json
+import shutil
 
 # Add the current directory to Python path
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -73,6 +75,8 @@ def run_pipeline(args):
     from pathlib import Path
     from agent.report_apply_flow import ReportApplyFlow
     import asyncio
+    import csv
+    from datetime import datetime
     
     print("🚀 Starting automated performance optimization pipeline")
     print(f"📍 Target URL: {args.url}")
@@ -135,7 +139,8 @@ def run_pipeline(args):
     print(f"\n🔧 Step 2: Applying performance suggestions...")
     print(f"📄 Using report: {report_path}")
     
-    try:
+    async def run_flow_with_results():
+        """Async function to run the flow and capture results"""
         flow = ReportApplyFlow(
             report_path=report_path,
             url=args.url,
@@ -143,17 +148,136 @@ def run_pipeline(args):
             headless=args.headless
         )
         
-        asyncio.run(flow.run())
+        # Store performance results
+        performance_results = []
+        
+        print("🚀 Starting Report Apply Flow\n")
+        
+        # Read the report
+        report_data = flow.read_report()
+        
+        # Fetch website assets
+        await flow.fetch_website_assets()
+        
+        # Parse suggestions
+        if isinstance(report_data, dict) and 'content' in report_data:
+            suggestions = flow.parse_suggestions(report_data['content'])
+        else:
+            suggestions = flow.parse_suggestions(str(report_data))
+        
+        # Apply suggestions
+        if suggestions:
+            flow.apply_suggestions()
+            
+            # Re-test performance for each branch
+            print("\n📊 Performance comparison:")
+            print("-" * 50)
+            
+            # Test original
+            original_data, _, original_lcp = await flow.retest_performance("master")
+            print(f"Original LCP: {original_lcp}ms")
+            performance_results.append({
+                'version': 'Original',
+                'branch': 'master',
+                'lcp_ms': original_lcp,
+                'improvement_ms': 0,
+                'improvement_percent': 0.0
+            })
+            
+            # Test each suggestion branch
+            for idx in range(1, len(suggestions) + 1):
+                branch_name = f"perf-fix-{idx}"
+                try:
+                    _, _, modified_lcp = await flow.retest_performance(branch_name)
+                    improvement = original_lcp - modified_lcp
+                    percent = (improvement / original_lcp) * 100 if original_lcp > 0 else 0
+                    
+                    print(f"{branch_name} LCP: {modified_lcp}ms "
+                          f"({'✅ ' if improvement > 0 else '❌ '}"
+                          f"{improvement:+.0f}ms, {percent:+.1f}%)")
+                    
+                    performance_results.append({
+                        'version': f'Optimization {idx}',
+                        'branch': branch_name,
+                        'lcp_ms': modified_lcp,
+                        'improvement_ms': improvement,
+                        'improvement_percent': round(percent, 1)
+                    })
+                except Exception as e:
+                    print(f"{branch_name}: Error - {str(e)}")
+            
+            # Return to master branch
+            subprocess.run(['git', 'checkout', 'master'], 
+                         cwd=flow.output_dir, check=True)
+        
+        return performance_results, flow.output_dir, len(suggestions) if suggestions else 0
+    
+    try:
+        # Run the async flow
+        performance_results, output_dir, suggestions_count = asyncio.run(run_flow_with_results())
         
         print("\n✅ Pipeline completed successfully!")
         print("\n📈 Summary:")
         print(f"- Report: {report_path}")
         print(f"- Optimized assets: output/{urlparse(args.url).hostname}/")
-        print(f"- Git branches created: perf-fix-1 through perf-fix-N")
-        print("\nNext steps:")
-        print("1. Review the changes in each git branch")
-        print("2. Deploy the most effective optimizations")
-        print("3. Test in production environment")
+        print(f"- Git branches created: perf-fix-1 through perf-fix-{suggestions_count}")
+        
+        # Save performance results to CSV
+        if performance_results:
+            # Create final_output directory
+            final_output_dir = Path("final_output")
+            final_output_dir.mkdir(exist_ok=True)
+            
+            timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+            hostname = urlparse(args.url).hostname
+            
+            # Create domain-specific subdirectory
+            domain_dir = final_output_dir / hostname
+            domain_dir.mkdir(exist_ok=True)
+            
+            # Save CSV in domain subdirectory
+            csv_filename = domain_dir / f"performance_results_{timestamp}.csv"
+            
+            with open(csv_filename, 'w', newline='') as csvfile:
+                fieldnames = ['version', 'branch', 'lcp_ms', 'improvement_ms', 'improvement_percent']
+                writer = csv.DictWriter(csvfile, fieldnames=fieldnames)
+                
+                writer.writeheader()
+                writer.writerows(performance_results)
+            
+            print(f"\n📊 Performance results saved to: {csv_filename}")
+            
+            # Copy structured suggestions to final_output if they exist
+            source_suggestions = Path(output_dir) / "parsed_suggestions.json"
+            source_yaml = Path(output_dir) / "suggestions.yaml"
+            
+            if source_suggestions.exists():
+                dest_suggestions = domain_dir / f"parsed_suggestions_{timestamp}.json"
+                shutil.copy2(source_suggestions, dest_suggestions)
+                print(f"📝 Structured suggestions saved to: {dest_suggestions}")
+            
+            if source_yaml.exists():
+                dest_yaml = domain_dir / f"suggestions_{timestamp}.yaml"
+                shutil.copy2(source_yaml, dest_yaml)
+            
+            # Create comprehensive summary JSON in domain subdirectory
+            summary = {
+                'url': args.url,
+                'device': args.device,
+                'model': args.model,
+                'timestamp': timestamp,
+                'report_path': report_path,
+                'output_directory': f"output/{hostname}/",
+                'performance_results': performance_results,
+                'suggestions_count': suggestions_count
+            }
+            
+            summary_filename = domain_dir / f"optimization_summary_{timestamp}.json"
+            with open(summary_filename, 'w') as f:
+                json.dump(summary, f, indent=2)
+            
+            print(f"📋 Summary saved to: {summary_filename}")
+            print(f"\n✅ All results saved to: final_output/{hostname}/")
         
     except Exception as e:
         print(f"❌ Error applying suggestions: {str(e)}")

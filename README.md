@@ -12,6 +12,7 @@ This command runs the complete flow:
 3. Applies all suggested optimizations
 4. Tests performance improvements
 5. Shows before/after comparison
+6. Saves results to CSV and structured suggestions to JSON
 
 ## Available Commands
 
@@ -110,3 +111,38 @@ AWS_ACCESS_KEY_ID=
 AWS_SECRET_ACCESS_KEY=
 AWS_REGION=
 ```
+
+## 📄 Output Files
+
+After running the pipeline, all results are saved to `final_output/<hostname>/`:
+
+```
+final_output/
+└── example.com/
+    ├── performance_results_20240523_121501.csv
+    ├── optimization_summary_20240523_121501.json
+    ├── parsed_suggestions_20240523_121501.json
+    └── suggestions_20240523_121501.yaml
+```
+
+**Files include:**
+- **`performance_results_<timestamp>.csv`** - LCP scores and improvements
+- **`optimization_summary_<timestamp>.json`** - Complete run metadata
+- **`parsed_suggestions_<timestamp>.json`** - Structured AI suggestions
+- **`suggestions_<timestamp>.yaml`** - Intermediate YAML format
+
+The modified website assets remain in `output/<hostname>/` organized in git branches.
+
+## Demo
+
+For team demonstrations, Flow includes a web-based UI built with Streamlit:
+
+```bash
+# Install Streamlit if needed
+pip install streamlit pandas
+
+# Run the demo UI
+streamlit run demo_app.py
+```
+
+Access the UI at http://localhost:8501 after running the command.
