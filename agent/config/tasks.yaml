@@ -1,0 +1,69 @@
+# greeting_task:
+#   description: Say hello to the world in a friendly way
+#   expected_output: A warm and friendly greeting message to the world
+#   agent: greeter_agent
+
+# perf_analysis_task:
+#   description: >
+#     Analyze a web page's performance and provide detailed optimization recommendations focusing on Core Web Vitals and critical rendering path optimization
+#     All performance metrics are in the provided report: {report}.
+#   expected_output: >
+#     A detailed analysis of the web page's performance, including identified 
+#     issues and suggestions for improvement. Output in markdown format.
+#   agent: perf_analysis_agent
+
+gather_knowledge_task:
+  description: >
+    Answer the question below. Only use the additional context. If the answer is not in the context, say so.
+    Question: How to {issue} ?
+  expected_output: >
+    A detailed explanation on how to fix the issue. Output in markdown format.
+  agent: knowledge_gathering_agent
+
+lcp_perf_analysis_task:
+  description: >
+    Analyze the LCP loading time and sequence on web page in order to understand the critical rendering path.
+    Think about it step by step, and focus on the most important thing that could improve LCP.
+    Ignore the TTFB because that's harder to change and test. 
+    Focus on changes in HTML, CSS, and Javascript as they can be tested and validated immediately.
+
+    All performance metrics are the provided in the report below. 
+    The report is ordered by start and end time of each resource that is loaded on the page and also events reported by the browser. 
+
+    Report JSON:
+    {report}
+
+  expected_output: >
+    A detailed analysis of the web page's LCP performance, including identified 
+    issues and suggestions for improvement. Output in markdown format.
+    Explain your reasoning for each suggestion and then provide the suggestion.
+
+  agent: perf_analysis_agent
+
+lcp_perf_analysis_task_review:
+  description: >
+    Review the LCP suggestions and think about them step by step. 
+    Extract the most critical next step that could improve LCP.
+    Think of ONE THING that could be changed in the HTML, CSS, or JavaScript files.
+    Do not think about Converting Image to WebP Format, as that involved another tool. 
+    Then provide a detailed explanation of the suggestion and the reasoning behind it.
+
+  expected_output: >
+    ONE suggestion and the next steps for implementing it. 
+    Don't specify how to test and monitor. 
+    Be as precise as possible in the changes to be made.
+    Output in markdown format as:
+    ## Critical Next Step for Improving LCP
+    ### Suggestion
+    #### Explanation and Reasoning
+    #### Implementation Steps
+  agent: perf_analysis_agent
+
+# validate_perf_suggestions:
+#   description: >
+#     1. For every item in the Analysis section, use the provided tool to check if the suggestion is valid.
+#     2. If the suggestion is valid, return the suggestion.
+#     3. If the suggestion is not valid, return an explanation why it is not valid.
+#   expected_output: >
+#     A detailed analysis of the performance suggestions provided by the perf_analysis_agent. Output in markdown format.
+#   agent: perf_validation_agent

@@ -1,0 +1,11 @@
+.venv/
+venv/
+__pycache__/
+.env
+*.pyc
+.python-version
+db/
+output/
+data/
+.aider*
+memory/

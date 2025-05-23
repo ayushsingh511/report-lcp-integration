@@ -1,0 +1,3240 @@
+{
+  "url": "https://www.ups.com/us/en/home",
+  "type": "desktop",
+  "data": [
+    {
+      "start": 0,
+      "end": 583,
+      "url": "https://www.ups.com/us/en/home",
+      "type": "navigation",
+      "entryType": "navigation",
+      "duration": 2118,
+      "size": 6763
+    },
+    {
+      "start": 592,
+      "end": 818,
+      "url": "https://www.ups.com/assets/34cabd9b90ceb2cb6785ea730fd896f2d0453d5260d",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 226,
+      "size": 68225
+    },
+    {
+      "start": 593,
+      "end": 738,
+      "url": "https://www.ups.com/webassets/scripts/aem.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 145,
+      "size": 23677
+    },
+    {
+      "start": 593,
+      "end": 743,
+      "url": "https://www.ups.com/webassets/scripts/martech.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 151,
+      "size": 7149
+    },
+    {
+      "start": 593,
+      "end": 734,
+      "url": "https://www.ups.com/webassets/scripts/scripts.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 141,
+      "size": 6354
+    },
+    {
+      "start": 593,
+      "end": 875,
+      "url": "https://www.ups.com/webassets/styles/styles.css",
+      "type": "link",
+      "entryType": "resource",
+      "duration": 282,
+      "size": 3943
+    },
+    {
+      "start": 593,
+      "end": 819,
+      "url": "https://www.ups.com/webassets/scripts/utils.js",
+      "type": "other",
+      "entryType": "resource",
+      "duration": 226,
+      "size": 3623
+    },
+    {
+      "start": 593,
+      "end": 914,
+      "url": "https://www.ups.com/gt7-/iziJ/Tura/0wiUFw/kEzYcbEiruQh3S/ITk8VCBifQU/KEhXIB/0yBgMB",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 320,
+      "size": 116106
+    },
+    {
+      "start": 847,
+      "end": 1337,
+      "url": "https://p11.techlab-cdn.com/e/65319_1825172608.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 489,
+      "size": 18649
+    },
+    {
+      "start": 848,
+      "end": 1311,
+      "url": "https://p11.techlab-cdn.com/e/65257_1825232097.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 463,
+      "size": 6361
+    },
+    {
+      "start": 848,
+      "end": 1169,
+      "url": "https://p11.techlab-cdn.com/e/64885_1825202523.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 321,
+      "size": 1770
+    },
+    {
+      "start": 848,
+      "end": 1303,
+      "url": "https://p11.techlab-cdn.com/e/65226_747628217.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 455,
+      "size": 33372
+    },
+    {
+      "start": 848,
+      "end": 1168,
+      "url": "https://p11.techlab-cdn.com/e/65350_1825232252.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 320,
+      "size": 4239
+    },
+    {
+      "start": 878,
+      "end": 1137,
+      "url": "https://s.go-mpulse.net/boomerang/TADEN-6MDCS-UHH5M-YHPKQ-2GBH3",
+      "type": "link",
+      "entryType": "resource",
+      "duration": 260,
+      "size": 53710
+    },
+    {
+      "start": 940,
+      "end": 1062,
+      "url": "https://rum.hlx.page/.rum/1",
+      "type": "beacon",
+      "entryType": "resource",
+      "duration": 122,
+      "size": 0
+    },
+    {
+      "start": 940,
+      "end": 1062,
+      "url": "https://rum.hlx.page/.rum/@adobe/helix-rum-enhancer@%5E2/src/index.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 121,
+      "size": 0
+    },
+    {
+      "start": 941,
+      "end": 1067,
+      "url": "https://www.ups.com/webassets/scripts/app-banner.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 126,
+      "size": 707
+    },
+    {
+      "start": 945,
+      "end": 1067,
+      "url": "https://www.ups.com/webassets/scripts/ims-api.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 122,
+      "size": 1696
+    },
+    {
+      "start": 946,
+      "end": 1067,
+      "url": "https://www.ups.com/webassets/scripts/blueconic-api.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 121,
+      "size": 929
+    },
+    {
+      "start": 946,
+      "end": 1067,
+      "url": "https://www.ups.com/webassets/blocks/apps/apps.css",
+      "type": "link",
+      "entryType": "resource",
+      "duration": 121,
+      "size": 1648
+    },
+    {
+      "start": 946,
+      "end": 1067,
+      "url": "https://www.ups.com/webassets/blocks/apps/apps.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 122,
+      "size": 3213
+    },
+    {
+      "start": 952,
+      "end": 1067,
+      "url": "https://www.ups.com/webassets/scripts/full-story-proxy.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 115,
+      "size": 778
+    },
+    {
+      "start": 952,
+      "end": 1068,
+      "url": "https://www.ups.com/webassets/scripts/vendor/visitor/visitorapi.min.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 116,
+      "size": 20594
+    },
+    {
+      "start": 1064,
+      "end": 1121,
+      "url": "https://rum.hlx.page/.rum/1",
+      "type": "beacon",
+      "entryType": "resource",
+      "duration": 58,
+      "size": 0
+    },
+    {
+      "start": 1069,
+      "end": 1169,
+      "url": "https://www.ups.com/webassets/blocks/apps/section-arc.css",
+      "type": "css",
+      "entryType": "resource",
+      "duration": 100,
+      "size": 801
+    },
+    {
+      "start": 1069,
+      "end": 1130,
+      "url": "https://rum.hlx.page/.rum/1",
+      "type": "beacon",
+      "entryType": "resource",
+      "duration": 61,
+      "size": 0
+    },
+    {
+      "start": 1069,
+      "end": 1130,
+      "url": "https://rum.hlx.page/.rum/1",
+      "type": "beacon",
+      "entryType": "resource",
+      "duration": 61,
+      "size": 0
+    },
+    {
+      "start": 1070,
+      "end": 1130,
+      "url": "https://rum.hlx.page/.rum/1",
+      "type": "beacon",
+      "entryType": "resource",
+      "duration": 60,
+      "size": 0
+    },
+    {
+      "start": 1070,
+      "end": 1169,
+      "url": "https://www.ups.com/webassets/blocks/fragment/fragment.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 99,
+      "size": 1088
+    },
+    {
+      "start": 1075,
+      "end": 1258,
+      "url": "https://www.ups.com/config.json",
+      "type": "fetch",
+      "entryType": "resource",
+      "duration": 183,
+      "size": 11250
+    },
+    {
+      "start": 1075,
+      "end": 1258,
+      "url": "https://www.ups.com/webassets/scripts/vendor/at/at.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 182,
+      "size": 34000
+    },
+    {
+      "start": 1171,
+      "end": 1374,
+      "url": "https://www.ups.com/webassets/icons/section-arc.svg",
+      "type": "fetch",
+      "entryType": "resource",
+      "duration": 203,
+      "size": 481
+    },
+    {
+      "start": 1173,
+      "end": 1471,
+      "url": "https://www.ups.com/us/en/fragments/apps/track.plain.html",
+      "type": "fetch",
+      "entryType": "resource",
+      "duration": 297,
+      "size": 563
+    },
+    {
+      "start": 1174,
+      "end": 1374,
+      "url": "https://www.ups.com/webassets/icons/section-arc.svg",
+      "type": "img",
+      "entryType": "resource",
+      "duration": 200,
+      "size": 481
+    },
+    {
+      "start": 1174,
+      "end": 1374,
+      "url": "https://www.ups.com/us/en/media_141d5969c89830befe22b1efddcb54b98dadb99cb.webp?width=2000&format=webply&optimize=medium",
+      "type": "img",
+      "entryType": "resource",
+      "duration": 200,
+      "size": 11356
+    },
+    {
+      "start": 1260,
+      "end": 1787,
+      "url": "https://widgets.ups.com/api/userprofile/v1/personalization/attributes",
+      "type": "fetch",
+      "entryType": "resource",
+      "duration": 528,
+      "size": 0
+    },
+    {
+      "start": 1260,
+      "end": 1331,
+      "url": "https://rum.hlx.page/.rum/1",
+      "type": "beacon",
+      "entryType": "resource",
+      "duration": 71,
+      "size": 0
+    },
+    {
+      "start": 1376,
+      "end": 1591,
+      "url": "https://www.ups.com/webassets/styles/fonts.css",
+      "type": "link",
+      "entryType": "resource",
+      "duration": 215,
+      "size": 487
+    },
+    {
+      "start": 1377,
+      "end": 1592,
+      "url": "https://www.ups.com/webassets/blocks/header/header.css",
+      "type": "link",
+      "entryType": "resource",
+      "duration": 215,
+      "size": 4128
+    },
+    {
+      "start": 1377,
+      "end": 1592,
+      "url": "https://www.ups.com/webassets/blocks/header/header.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 215,
+      "size": 8948
+    },
+    {
+      "start": 1378,
+      "end": 1654,
+      "url": "https://www.ups.com/webassets/blocks/teaser/teaser.css",
+      "type": "link",
+      "entryType": "resource",
+      "duration": 276,
+      "size": 1319
+    },
+    {
+      "start": 1378,
+      "end": 1592,
+      "url": "https://www.ups.com/webassets/blocks/teaser/teaser.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 214,
+      "size": 2735
+    },
+    {
+      "start": 1384,
+      "end": 1440,
+      "url": "https://rum.hlx.page/.rum/1",
+      "type": "beacon",
+      "entryType": "resource",
+      "duration": 56,
+      "size": 0
+    },
+    {
+      "start": 1384,
+      "end": 1443,
+      "url": "https://rum.hlx.page/.rum/1",
+      "type": "beacon",
+      "entryType": "resource",
+      "duration": 59,
+      "size": 0
+    },
+    {
+      "start": 1385,
+      "end": 1788,
+      "url": "https://c.go-mpulse.net/api/config.json?key=TADEN-6MDCS-UHH5M-YHPKQ-2GBH3&d=www.ups.com&t=5793229&v=1.792.0&sl=1&si=2e163e43-dda3-4c9c-b9fd-515a79a0745b-sqqmc0&bcn=%2F%2F684dd331.akstat.io%2F&plugins=AK,ConfigOverride,Continuity,PageParams,IFrameDelay,AutoXHR,SPA,History,Angular,Backbone,Ember,RT,CrossDomain,BW,PaintTiming,NavigationTiming,ResourceTiming,Memory,CACHE_RELOAD,Errors,TPAnalytics,UserTiming,Akamai,Early,EventTiming,BFCache,LOGN&acao=&ak.ai=265833",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 403,
+      "size": 2713
+    },
+    {
+      "start": 1473,
+      "end": 1654,
+      "url": "https://www.ups.com/webassets/blocks/track/track.css",
+      "type": "link",
+      "entryType": "resource",
+      "duration": 181,
+      "size": 1150
+    },
+    {
+      "start": 1473,
+      "end": 1654,
+      "url": "https://www.ups.com/webassets/blocks/track/track.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 181,
+      "size": 3100
+    },
+    {
+      "start": 1474,
+      "end": 1585,
+      "url": "https://rum.hlx.page/.rum/1",
+      "type": "beacon",
+      "entryType": "resource",
+      "duration": 111,
+      "size": 0
+    },
+    {
+      "start": 1594,
+      "end": 1786,
+      "url": "https://www.ups.com/webassets/fonts/roboto-regular.woff2",
+      "type": "css",
+      "entryType": "resource",
+      "duration": 192,
+      "size": 19668
+    },
+    {
+      "start": 1597,
+      "end": 1786,
+      "url": "https://www.ups.com/webassets/scripts/dom-helpers.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 189,
+      "size": 1261
+    },
+    {
+      "start": 1660,
+      "end": 1881,
+      "url": "https://www.ups.com/webassets/fonts/roboto-medium.woff2",
+      "type": "css",
+      "entryType": "resource",
+      "duration": 221,
+      "size": 67005
+    },
+    {
+      "start": 1660,
+      "end": 1882,
+      "url": "https://www.ups.com/webassets/icons/help.svg",
+      "type": "img",
+      "entryType": "resource",
+      "duration": 222,
+      "size": 917
+    },
+    {
+      "start": 1661,
+      "end": 1882,
+      "url": "https://www.ups.com/webassets/icons/help.svg",
+      "type": "fetch",
+      "entryType": "resource",
+      "duration": 221,
+      "size": 917
+    },
+    {
+      "start": 1661,
+      "end": 1787,
+      "url": "https://rum.hlx.page/.rum/1",
+      "type": "beacon",
+      "entryType": "resource",
+      "duration": 126,
+      "size": 0
+    },
+    {
+      "start": 1795,
+      "end": 1845,
+      "url": "https://mboxedge37.tt.omtrdc.net/rest/v1/delivery?client=ups&sessionId=4b133623a69444369edc50bc56d290e3&version=2.11.4",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 50,
+      "size": 11721
+    },
+    {
+      "start": 1801,
+      "end": 2305,
+      "url": "https://www.ups.com/us/en/fragments/nav.plain.html",
+      "type": "fetch",
+      "entryType": "resource",
+      "duration": 504,
+      "size": 1959
+    },
+    {
+      "start": 1839,
+      "end": 1898,
+      "url": "https://rum.hlx.page/.rum/1",
+      "type": "beacon",
+      "entryType": "resource",
+      "duration": 59,
+      "size": 0
+    },
+    {
+      "start": 1857,
+      "end": 2114,
+      "url": "https://www.ups.com/webassets/blocks/banner/banner.css",
+      "type": "link",
+      "entryType": "resource",
+      "duration": 257,
+      "size": 1357
+    },
+    {
+      "start": 1857,
+      "end": 2114,
+      "url": "https://www.ups.com/webassets/blocks/banner/banner.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 257,
+      "size": 867
+    },
+    {
+      "start": 1868,
+      "end": 2115,
+      "url": "https://www.ups.com/webassets/icons/background-arc.svg",
+      "type": "css",
+      "entryType": "resource",
+      "duration": 247,
+      "size": 640
+    },
+    {
+      "start": 1869,
+      "end": 2115,
+      "url": "https://www.ups.com/us/en/media_1e4a52ab7f4f7d49be0cd5039516f569af6185371.webp?width=750&format=webply&optimize=medium",
+      "type": "img",
+      "entryType": "resource",
+      "duration": 246,
+      "size": 15754
+    },
+    {
+      "start": 1870,
+      "end": 1934,
+      "url": "https://rum.hlx.page/.rum/1",
+      "type": "beacon",
+      "entryType": "resource",
+      "duration": 64,
+      "size": 0
+    },
+    {
+      "start": 1870,
+      "end": 1934,
+      "url": "https://rum.hlx.page/.rum/1",
+      "type": "beacon",
+      "entryType": "resource",
+      "duration": 64,
+      "size": 0
+    },
+    {
+      "start": 2123,
+      "end": 2307,
+      "url": "https://www.ups.com/webassets/blocks/cards/cards.css",
+      "type": "link",
+      "entryType": "resource",
+      "duration": 185,
+      "size": 1249
+    },
+    {
+      "start": 2123,
+      "end": 2306,
+      "url": "https://www.ups.com/webassets/blocks/cards/cards.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 184,
+      "size": 1173
+    },
+    {
+      "start": 2124,
+      "end": 2307,
+      "url": "https://www.ups.com/webassets/icons/banner-arc.svg",
+      "type": "css",
+      "entryType": "resource",
+      "duration": 183,
+      "size": 634
+    },
+    {
+      "start": 2174,
+      "end": 2307,
+      "url": "https://www.ups.com/us/en/fragments/apps/quote.plain.html",
+      "type": "fetch",
+      "entryType": "resource",
+      "duration": 133,
+      "size": 339
+    },
+    {
+      "start": 2312,
+      "end": 2417,
+      "url": "https://www.ups.com/webassets/icons/new-window.svg",
+      "type": "img",
+      "entryType": "resource",
+      "duration": 104,
+      "size": 699
+    },
+    {
+      "start": 2313,
+      "end": 2416,
+      "url": "https://www.ups.com/webassets/blocks/header-content/header-content.css",
+      "type": "link",
+      "entryType": "resource",
+      "duration": 103,
+      "size": 592
+    },
+    {
+      "start": 2313,
+      "end": 2417,
+      "url": "https://www.ups.com/webassets/blocks/header-content/header-content.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 103,
+      "size": 461
+    },
+    {
+      "start": 2315,
+      "end": 2372,
+      "url": "https://rum.hlx.page/.rum/1",
+      "type": "beacon",
+      "entryType": "resource",
+      "duration": 56,
+      "size": 0
+    },
+    {
+      "start": 2321,
+      "end": 2416,
+      "url": "https://www.ups.com/webassets/blocks/accordion/accordion.css",
+      "type": "link",
+      "entryType": "resource",
+      "duration": 95,
+      "size": 800
+    },
+    {
+      "start": 2321,
+      "end": 2438,
+      "url": "https://www.ups.com/webassets/blocks/accordion/accordion.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 117,
+      "size": 1500
+    },
+    {
+      "start": 2323,
+      "end": 2416,
+      "url": "https://www.ups.com/webassets/blocks/quote/quote.css",
+      "type": "link",
+      "entryType": "resource",
+      "duration": 93,
+      "size": 1877
+    },
+    {
+      "start": 2324,
+      "end": 2460,
+      "url": "https://www.ups.com/webassets/blocks/quote/quote.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 137,
+      "size": 743
+    },
+    {
+      "start": 2324,
+      "end": 2380,
+      "url": "https://rum.hlx.page/.rum/1",
+      "type": "beacon",
+      "entryType": "resource",
+      "duration": 56,
+      "size": 0
+    },
+    {
+      "start": 2325,
+      "end": 2417,
+      "url": "https://www.ups.com/us/en/media_1c9ca836cfa3e00972421636ea747357db69878e6.webp?width=750&format=webply&optimize=medium",
+      "type": "img",
+      "entryType": "resource",
+      "duration": 92,
+      "size": 18264
+    },
+    {
+      "start": 2325,
+      "end": 2418,
+      "url": "https://www.ups.com/us/en/media_1aceccae75f17ecbf2ce250e947c800f676b7bee3.webp?width=750&format=webply&optimize=medium",
+      "type": "img",
+      "entryType": "resource",
+      "duration": 93,
+      "size": 19892
+    },
+    {
+      "start": 2418,
+      "end": 2511,
+      "url": "https://www.ups.com/webassets/blocks/quote/shipping-quote-widget.css",
+      "type": "css",
+      "entryType": "resource",
+      "duration": 93,
+      "size": 2176
+    },
+    {
+      "start": 2418,
+      "end": 2511,
+      "url": "https://www.ups.com/webassets/styles/ups-icons.css",
+      "type": "css",
+      "entryType": "resource",
+      "duration": 93,
+      "size": 8940
+    },
+    {
+      "start": 2423,
+      "end": 2511,
+      "url": "https://www.ups.com/us/en/placeholders.json",
+      "type": "fetch",
+      "entryType": "resource",
+      "duration": 88,
+      "size": 1048
+    },
+    {
+      "start": 2444,
+      "end": 2635,
+      "url": "https://www.ups.com/webassets/blocks/link-list/link-list.css",
+      "type": "link",
+      "entryType": "resource",
+      "duration": 191,
+      "size": 758
+    },
+    {
+      "start": 2444,
+      "end": 2635,
+      "url": "https://www.ups.com/webassets/blocks/link-list/link-list.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 191,
+      "size": 644
+    },
+    {
+      "start": 2445,
+      "end": 2640,
+      "url": "https://www.ups.com/assets/resources/webcontent/images/Donation-star.gif",
+      "type": "img",
+      "entryType": "resource",
+      "duration": 195,
+      "size": 25204
+    },
+    {
+      "start": 2513,
+      "end": 2631,
+      "url": "https://rum.hlx.page/.rum/1",
+      "type": "beacon",
+      "entryType": "resource",
+      "duration": 119,
+      "size": 0
+    },
+    {
+      "start": 2514,
+      "end": 2635,
+      "url": "https://www.ups.com/webassets/widgets/locator/locator.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 121,
+      "size": 2977
+    },
+    {
+      "start": 2640,
+      "end": 2831,
+      "url": "https://www.ups.com/webassets/blocks/footer/footer.css",
+      "type": "link",
+      "entryType": "resource",
+      "duration": 190,
+      "size": 1569
+    },
+    {
+      "start": 2640,
+      "end": 2831,
+      "url": "https://www.ups.com/webassets/blocks/footer/footer.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 191,
+      "size": 1883
+    },
+    {
+      "start": 2641,
+      "end": 2831,
+      "url": "https://www.ups.com/webassets/styles/lazy-styles.css",
+      "type": "link",
+      "entryType": "resource",
+      "duration": 190,
+      "size": 655
+    },
+    {
+      "start": 2642,
+      "end": 2831,
+      "url": "https://www.ups.com/webassets/widgets/locator/api/locator-api.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 190,
+      "size": 2681
+    },
+    {
+      "start": 2642,
+      "end": 2832,
+      "url": "https://www.ups.com/webassets/widgets/locator/utils/storage-util.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 190,
+      "size": 1496
+    },
+    {
+      "start": 2642,
+      "end": 2832,
+      "url": "https://www.ups.com/webassets/widgets/locator/utils/analytics-util.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 190,
+      "size": 439
+    },
+    {
+      "start": 2834,
+      "end": 2895,
+      "url": "https://rum.hlx.page/.rum/1",
+      "type": "beacon",
+      "entryType": "resource",
+      "duration": 61,
+      "size": 0
+    },
+    {
+      "start": 2835,
+      "end": 2981,
+      "url": "https://www.ups.com/webassets/widgets/locator/utils/cookie-util.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 146,
+      "size": 807
+    },
+    {
+      "start": 2835,
+      "end": 3158,
+      "url": "https://www.ups.com/us/en/fragments/footer.plain.html",
+      "type": "fetch",
+      "entryType": "resource",
+      "duration": 323,
+      "size": 1164
+    },
+    {
+      "start": 3003,
+      "end": 3198,
+      "url": "https://www.ups.com/us/en/fragments/nav-targeting.json",
+      "type": "fetch",
+      "entryType": "resource",
+      "duration": 195,
+      "size": 821
+    },
+    {
+      "start": 3006,
+      "end": 3198,
+      "url": "https://www.ups.com/webassets/icons/pin.svg",
+      "type": "img",
+      "entryType": "resource",
+      "duration": 192,
+      "size": 744
+    },
+    {
+      "start": 3006,
+      "end": 3198,
+      "url": "https://www.ups.com/webassets/icons/alert.svg",
+      "type": "img",
+      "entryType": "resource",
+      "duration": 192,
+      "size": 725
+    },
+    {
+      "start": 3006,
+      "end": 3198,
+      "url": "https://www.ups.com/webassets/icons/logo.svg",
+      "type": "img",
+      "entryType": "resource",
+      "duration": 192,
+      "size": 1319
+    },
+    {
+      "start": 3006,
+      "end": 3199,
+      "url": "https://www.ups.com/webassets/icons/search.svg",
+      "type": "img",
+      "entryType": "resource",
+      "duration": 192,
+      "size": 566
+    },
+    {
+      "start": 3007,
+      "end": 3158,
+      "url": "https://rum.hlx.page/.rum/1",
+      "type": "beacon",
+      "entryType": "resource",
+      "duration": 151,
+      "size": 0
+    },
+    {
+      "start": 3008,
+      "end": 3158,
+      "url": "https://rum.hlx.page/.rum/1",
+      "type": "beacon",
+      "entryType": "resource",
+      "duration": 151,
+      "size": 0
+    },
+    {
+      "start": 3065,
+      "end": 3203,
+      "url": "https://rum.hlx.page/.rum/web-vitals/dist/web-vitals.iife.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 138,
+      "size": 0
+    },
+    {
+      "start": 3161,
+      "end": 3218,
+      "url": "https://rum.hlx.page/.rum/1",
+      "type": "beacon",
+      "entryType": "resource",
+      "duration": 57,
+      "size": 0
+    },
+    {
+      "start": 3164,
+      "end": 3361,
+      "url": "https://www.ups.com/webassets/icons/new-window.svg",
+      "type": "img",
+      "entryType": "resource",
+      "duration": 197,
+      "size": 699
+    },
+    {
+      "start": 3203,
+      "end": 3359,
+      "url": "https://rum.hlx.page/.rum/1",
+      "type": "beacon",
+      "entryType": "resource",
+      "duration": 157,
+      "size": 0
+    },
+    {
+      "start": 3210,
+      "end": 3362,
+      "url": "https://www.ups.com/webassets/scripts/sidekick.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 152,
+      "size": 847
+    },
+    {
+      "start": 3210,
+      "end": 3361,
+      "url": "https://www.ups.com/webassets/scripts/vendor/jquery/jquery-3.7.1.min.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 151,
+      "size": 30234
+    },
+    {
+      "start": 3214,
+      "end": 3360,
+      "url": "https://rum.hlx.page/.rum/1",
+      "type": "beacon",
+      "entryType": "resource",
+      "duration": 146,
+      "size": 0
+    },
+    {
+      "start": 3214,
+      "end": 3360,
+      "url": "https://rum.hlx.page/.rum/1",
+      "type": "beacon",
+      "entryType": "resource",
+      "duration": 146,
+      "size": 0
+    },
+    {
+      "start": 3373,
+      "end": 3406,
+      "url": "https://tags.tiqcdn.com/utag/ups/nova/prod/utag.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 33,
+      "size": 0
+    },
+    {
+      "start": 3490,
+      "end": 3525,
+      "url": "https://tags.tiqcdn.com/utag/ups/nova/prod/utag.98.js?utv=ut4.51.202410210350",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 35,
+      "size": 0
+    },
+    {
+      "start": 3490,
+      "end": 3519,
+      "url": "https://aap-p.ups.com/script.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 29,
+      "size": 0
+    },
+    {
+      "start": 3495,
+      "end": 3518,
+      "url": "https://tags.tiqcdn.com/utag/ups/nova/prod/utag.139.js?utv=ut4.51.202501131208",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 24,
+      "size": 0
+    },
+    {
+      "start": 3495,
+      "end": 3521,
+      "url": "https://tags.tiqcdn.com/utag/ups/nova/prod/utag.90.js?utv=ut4.51.202501131208",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 26,
+      "size": 0
+    },
+    {
+      "start": 3495,
+      "end": 3524,
+      "url": "https://tags.tiqcdn.com/utag/ups/nova/prod/utag.89.js?utv=ut4.51.202501170445",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 29,
+      "size": 0
+    },
+    {
+      "start": 3495,
+      "end": 3521,
+      "url": "https://tags.tiqcdn.com/utag/ups/nova/prod/utag.96.js?utv=ut4.51.202410210350",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 26,
+      "size": 0
+    },
+    {
+      "start": 3495,
+      "end": 3518,
+      "url": "https://tags.tiqcdn.com/utag/ups/nova/prod/utag.111.js?utv=ut4.51.202410210350",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 23,
+      "size": 0
+    },
+    {
+      "start": 3495,
+      "end": 3523,
+      "url": "https://tags.tiqcdn.com/utag/ups/nova/prod/utag.100.js?utv=ut4.51.202410210350",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 28,
+      "size": 0
+    },
+    {
+      "start": 3496,
+      "end": 3525,
+      "url": "https://tags.tiqcdn.com/utag/ups/nova/prod/utag.105.js?utv=ut4.51.202410210350",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 29,
+      "size": 0
+    },
+    {
+      "start": 3496,
+      "end": 3525,
+      "url": "https://tags.tiqcdn.com/utag/ups/nova/prod/utag.120.js?utv=ut4.51.202501131208",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 29,
+      "size": 0
+    },
+    {
+      "start": 3496,
+      "end": 3525,
+      "url": "https://tags.tiqcdn.com/utag/ups/nova/prod/utag.106.js?utv=ut4.51.202410210350",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 29,
+      "size": 0
+    },
+    {
+      "start": 3496,
+      "end": 3520,
+      "url": "https://tags.tiqcdn.com/utag/ups/nova/prod/utag.115.js?utv=ut4.51.202501131208",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 24,
+      "size": 0
+    },
+    {
+      "start": 3520,
+      "end": 3770,
+      "url": "https://s.yimg.com/wi/ytc.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 251,
+      "size": 0
+    },
+    {
+      "start": 3522,
+      "end": 3743,
+      "url": "https://www.googletagmanager.com/gtag/js?id=DC-6451349",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 221,
+      "size": 0
+    },
+    {
+      "start": 3546,
+      "end": 3570,
+      "url": "https://js.adsrvr.org/up_loader.1.1.0.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 24,
+      "size": 0
+    },
+    {
+      "start": 3550,
+      "end": 3682,
+      "url": "https://ups.blueconic.net/DG/DEFAULT/cs?&callback=bc_json556",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 132,
+      "size": 0
+    },
+    {
+      "start": 3552,
+      "end": 3682,
+      "url": "https://ups.blueconic.net/DG/DEFAULT/cs?&callback=bc_json557",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 130,
+      "size": 0
+    },
+    {
+      "start": 3555,
+      "end": 3690,
+      "url": "https://edge.fullstory.com/s/fs.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 135,
+      "size": 0
+    },
+    {
+      "start": 3618,
+      "end": 3918,
+      "url": "https://match.adsrvr.org/track/cmf/generic?ttd_pid=tealium&ttd_tpi=1&gdpr=0&domain=ups.com",
+      "type": "img",
+      "entryType": "resource",
+      "duration": 300,
+      "size": 0
+    },
+    {
+      "start": 3640,
+      "end": 3701,
+      "url": "https://scripts.demandbase.com/DZlgJRFL.min.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 61,
+      "size": 0
+    },
+    {
+      "start": 3642,
+      "end": 3880,
+      "url": "https://connect.facebook.net/en_US/fbevents.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 238,
+      "size": 62697
+    },
+    {
+      "start": 3643,
+      "end": 4105,
+      "url": "https://ups.inq.com/chatskins/launch/inqChatLaunch10005649.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 463,
+      "size": 0
+    },
+    {
+      "start": 3646,
+      "end": 3958,
+      "url": "https://insight.adsrvr.org/track/up?adv=bhipc3r&ref=https%3A%2F%2Fwww.ups.com%2Fus%2Fen%2Fhome&upid=3xdvk81&upv=1.1.0&paapi=1",
+      "type": "iframe",
+      "entryType": "resource",
+      "duration": 312,
+      "size": 0
+    },
+    {
+      "start": 3685,
+      "end": 3886,
+      "url": "https://aap-p.ups.com/DG/DEFAULT/rest/rpc/555?referer=https%3A%2F%2Fwww.ups.com%2Fus%2Fen%2Fhome&bcsessionid=ab8c3d06-8469-47f6-9407-6e3490932671&bctempid=&overruleReferrer=&time=2025-01-27T10%3A07%3A16%2B01%3A00&ts=1737968836100",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 200,
+      "size": 0
+    },
+    {
+      "start": 3686,
+      "end": 3886,
+      "url": "https://aap-p.ups.com/DG/DEFAULT/rest/rpc/555?referer=https%3A%2F%2Fwww.ups.com%2Fus%2Fen%2Fhome&bcsessionid=ab8c3d06-8469-47f6-9407-6e3490932671&bctempid=&overruleReferrer=&time=2025-01-27T10%3A07%3A16%2B01%3A00&ts=1737968836101",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 200,
+      "size": 0
+    },
+    {
+      "start": 3705,
+      "end": 3718,
+      "url": "https://edge.fullstory.com/s/settings/12PP33/v1/web",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 14,
+      "size": 0
+    },
+    {
+      "start": 3710,
+      "end": 4518,
+      "url": "https://s.company-target.com/s/sync?exc=lr",
+      "type": "iframe",
+      "entryType": "resource",
+      "duration": 808,
+      "size": 0
+    },
+    {
+      "start": 3712,
+      "end": 3910,
+      "url": "https://id.rlcdn.com/464526.gif",
+      "type": "img",
+      "entryType": "resource",
+      "duration": 199,
+      "size": 0
+    },
+    {
+      "start": 3712,
+      "end": 3773,
+      "url": "https://api.company-target.com/api/v3/ip.json?referrer=&page=https%3A%2F%2Fwww.ups.com%2Fus%2Fen%2Fhome&page_title=UPS%20Global%20Shipping%20%26%20Logistics%20Solutions%20%7C%20Ship%20%26%20Track%20Online%20%7C%20UPS%20-%20United%20States",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 61,
+      "size": 0
+    },
+    {
+      "start": 3721,
+      "end": 4004,
+      "url": "https://smetrics.ups.com/b/ss/upsprod/1/JS-2.26.0/s36215180025163",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 284,
+      "size": 0
+    },
+    {
+      "start": 3733,
+      "end": 3886,
+      "url": "https://rs.fullstory.com/rec/page",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 153,
+      "size": 0
+    },
+    {
+      "start": 3756,
+      "end": 3886,
+      "url": "https://www.google.com/ccm/collect?en=page_view&dl=https%3A%2F%2Fwww.ups.com%2Fus%2Fen%2Fhome&scrsrc=www.googletagmanager.com&frm=0&rnd=1233642836.1737968836&dt=UPS%20Global%20Shipping%20%26%20Logistics%20Solutions%20%7C%20Ship%20%26%20Track%20Online%20%7C%20UPS%20-%20United%20States&auid=2027982344.1730983650&navt=h&npa=0&gdid=dYmQxMT&gtm=45fe51n0v9179590599za200&gcd=13l3l3l3l1l1&dma=0&tag_exp=102067555~102067808~102081485~102123608&tft=1737968836171&tfd=3756&apve=1",
+      "type": "beacon",
+      "entryType": "resource",
+      "duration": 129,
+      "size": 0
+    },
+    {
+      "start": 3758,
+      "end": 3927,
+      "url": "https://6451349.fls.doubleclick.net/activityi;src=6451349;type=sitev;cat=upsal0;ord=9967799070730;npa=0;auiddc=2027982344.1730983650;gdid=dYmQxMT;ps=1;pcor=648043041;uaa=arm;uab=64;uafvl=Google%2520Chrome%3B131.0.6778.265%7CChromium%3B131.0.6778.265%7CNot_A%2520Brand%3B24.0.0.0;uamb=0;uam=;uap=macOS;uapv=15.1.1;uaw=0;pscdl=noapi;frm=0;gtm=45fe51n0v9179590599za200;gcd=13l3l3l3l1l1;dma=0;tag_exp=102067555~102067808~102081485~102123608;epver=2;~oref=https%3A%2F%2Fwww.ups.com%2Fus%2Fen%2Fhome?",
+      "type": "iframe",
+      "entryType": "resource",
+      "duration": 169,
+      "size": 920
+    },
+    {
+      "start": 3762,
+      "end": 3918,
+      "url": "https://td.doubleclick.net/td/fls/rul/activityi;fledge=1;src=6451349;type=sitev;cat=upsal0;ord=9967799070730;npa=0;auiddc=2027982344.1730983650;gdid=dYmQxMT;ps=1;pcor=648043041;uaa=arm;uab=64;uafvl=Google%2520Chrome%3B131.0.6778.265%7CChromium%3B131.0.6778.265%7CNot_A%2520Brand%3B24.0.0.0;uamb=0;uam=;uap=macOS;uapv=15.1.1;uaw=0;pscdl=noapi;frm=0;gtm=45fe51n0v9179590599za200;gcd=13l3l3l3l1l1;dma=0;tag_exp=102067555~102067808~102081485~102123608;epver=2;~oref=https%3A%2F%2Fwww.ups.com%2Fus%2Fen%2Fhome?",
+      "type": "iframe",
+      "entryType": "resource",
+      "duration": 156,
+      "size": 316
+    },
+    {
+      "start": 3765,
+      "end": 4017,
+      "url": "https://ad.doubleclick.net/activity;register_conversion=1;src=6451349;type=sitev;cat=upsal0;ord=9967799070730;npa=0;auiddc=2027982344.1730983650;gdid=dYmQxMT;ps=1;pcor=648043041;uaa=arm;uab=64;uafvl=Google%2520Chrome%3B131.0.6778.265%7CChromium%3B131.0.6778.265%7CNot_A%2520Brand%3B24.0.0.0;uamb=0;uam=;uap=macOS;uapv=15.1.1;uaw=0;pscdl=noapi;frm=0;gtm=45fe51n0v9179590599za200;gcd=13l3l3l3l1l1;dma=0;tag_exp=102067555~102067808~102081485~102123608;epver=2;~oref=https%3A%2F%2Fwww.ups.com%2Fus%2Fen%2Fhome?",
+      "type": "img",
+      "entryType": "resource",
+      "duration": 252,
+      "size": 300
+    },
+    {
+      "start": 3772,
+      "end": 3969,
+      "url": "https://s.yimg.com/wi/config/10195554.json",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 196,
+      "size": 0
+    },
+    {
+      "start": 3774,
+      "end": 4017,
+      "url": "https://tag-logger.demandbase.com/bg9s?x-amz-cf-id=aK0H1gVhniOJcgVx7cUIR1uNUcnSEnE4X79Snbq1BxQPPgNixrN5Ig==&api-version=v3",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 242,
+      "size": 0
+    },
+    {
+      "start": 3889,
+      "end": 3928,
+      "url": "https://connect.facebook.net/signals/config/286726385262010?v=2.9.180&r=stable&domain=www.ups.com&hme=1b2b48fb279bc2e2881583cc2153b57f55e340ed882b2c5394167c8bc992d930&ex_m=70%2C122%2C107%2C111%2C61%2C4%2C100%2C69%2C16%2C97%2C89%2C51%2C54%2C174%2C177%2C189%2C185%2C186%2C188%2C29%2C101%2C53%2C77%2C187%2C169%2C172%2C182%2C183%2C190%2C132%2C41%2C192%2C193%2C34%2C144%2C15%2C50%2C198%2C197%2C134%2C18%2C40%2C1%2C43%2C65%2C66%2C67%2C71%2C93%2C17%2C14%2C96%2C92%2C91%2C108%2C52%2C110%2C39%2C109%2C30%2C94%2C26%2C170%2C173%2C141%2C86%2C56%2C84%2C33%2C73%2C0%2C95%2C32%2C28%2C82%2C83%2C88%2C47%2C46%2C87%2C37%2C11%2C12%2C13%2C6%2C7%2C25%2C22%2C23%2C57%2C62%2C64%2C75%2C102%2C27%2C76%2C9%2C8%2C80%2C48%2C21%2C104%2C103%2C105%2C98%2C10%2C20%2C3%2C38%2C74%2C19%2C5%2C90%2C81%2C44%2C35%2C85%2C2%2C36%2C63%2C42%2C106%2C45%2C79%2C68%2C112%2C60%2C59%2C31%2C99%2C58%2C55%2C49%2C78%2C72%2C24%2C113",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 39,
+      "size": 17777
+    },
+    {
+      "start": 3891,
+      "end": 3918,
+      "url": "https://aap-p.ups.com/plugin/plugin/8760d7dd76890e8f3b79238e25e1301c",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 27,
+      "size": 0
+    },
+    {
+      "start": 3896,
+      "end": 4057,
+      "url": "https://rs.fullstory.com/rec/integrations?OrgId=12PP33&isInFrame=false&isNative=false",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 161,
+      "size": 0
+    },
+    {
+      "start": 3897,
+      "end": 4009,
+      "url": "https://ups.blueconic.net/DG/DEFAULT/cs?bcsessionid=ab8c3d06-8469-47f6-9407-6e3490932671&&callback=bc_json558",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 112,
+      "size": 0
+    },
+    {
+      "start": 3924,
+      "end": 3954,
+      "url": "https://aap-p.ups.com/plugin/library/1eda825919ea22477bde8184bb97ecde",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 30,
+      "size": 0
+    },
+    {
+      "start": 3925,
+      "end": 4040,
+      "url": "https://aap-p.ups.com/DG/DEFAULT/rest/rpc/555?referer=https%3A%2F%2Fwww.ups.com%2Fus%2Fen%2Fhome&bcsessionid=ab8c3d06-8469-47f6-9407-6e3490932671&bctempid=&overruleReferrer=&time=2025-01-27T10%3A07%3A16%2B01%3A00&ts=1737968836339",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 115,
+      "size": 0
+    },
+    {
+      "start": 3934,
+      "end": 4020,
+      "url": "https://www.facebook.com/tr/?id=286726385262010&ev=PageView&dl=https%3A%2F%2Fwww.ups.com%2Fus%2Fen%2Fhome&rl=&if=false&ts=1737968836349&sw=1512&sh=982&v=2.9.180&r=stable&a=tmtealium&ec=0&o=12318&fbp=fb.1.1730983649695.541219899613030199&cs_est=true&ler=empty&cdl=API_unavailable&it=1737968836304&coo=false&dpo=LDU&dpoco=0&dpost=0&eid=e548060d1c77acc38ef381b825e7dd83&tm=1&rqm=GET",
+      "type": "img",
+      "entryType": "resource",
+      "duration": 86,
+      "size": 0
+    },
+    {
+      "start": 3935,
+      "end": 4051,
+      "url": "https://www.facebook.com/privacy_sandbox/pixel/register/trigger/?id=286726385262010&ev=PageView&dl=https%3A%2F%2Fwww.ups.com%2Fus%2Fen%2Fhome&rl=&if=false&ts=1737968836349&sw=1512&sh=982&v=2.9.180&r=stable&a=tmtealium&ec=0&o=12318&fbp=fb.1.1730983649695.541219899613030199&cs_est=true&ler=empty&cdl=API_unavailable&it=1737968836304&coo=false&dpo=LDU&dpoco=0&dpost=0&eid=e548060d1c77acc38ef381b825e7dd83&tm=1&rqm=FGET",
+      "type": "img",
+      "entryType": "resource",
+      "duration": 116,
+      "size": 0
+    },
+    {
+      "start": 3970,
+      "end": 4089,
+      "url": "https://sp.analytics.yahoo.com/sp.pl?a=10000&d=Mon%2C%2027%20Jan%202025%2009%3A07%3A16%20GMT&n=-1&b=UPS%20Global%20Shipping%20%26%20Logistics%20Solutions%20%7C%20Ship%20%26%20Track%20Online%20%7C%20UPS%20-%20United%20States&.yp=10195554&f=https%3A%2F%2Fwww.ups.com%2Fus%2Fen%2Fhome&enc=UTF-8&yv=1.16.5&et=custom&ec=home&tagmgr=tealium%2Cgtm",
+      "type": "img",
+      "entryType": "resource",
+      "duration": 119,
+      "size": 0
+    },
+    {
+      "start": 4049,
+      "end": 4208,
+      "url": "https://aap-p.ups.com/DG/DEFAULT/rest/rpc/555?referer=https%3A%2F%2Fwww.ups.com%2Fus%2Fen%2Fhome&bcsessionid=ab8c3d06-8469-47f6-9407-6e3490932671&bctempid=&overruleReferrer=&time=2025-01-27T10%3A07%3A16%2B01%3A00&ts=1737968836464",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 158,
+      "size": 0
+    },
+    {
+      "start": 4051,
+      "end": 4208,
+      "url": "https://aap-p.ups.com/DG/DEFAULT/rest/rpc/555?referer=https%3A%2F%2Fwww.ups.com%2Fus%2Fen%2Fhome&bcsessionid=ab8c3d06-8469-47f6-9407-6e3490932671&bctempid=&overruleReferrer=&time=2025-01-27T10%3A07%3A16%2B01%3A00&ts=1737968836466",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 156,
+      "size": 0
+    },
+    {
+      "start": 4058,
+      "end": 4105,
+      "url": "https://edge.fullstory.com/datalayer/v4/latest.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 47,
+      "size": 0
+    },
+    {
+      "start": 4113,
+      "end": 4119,
+      "url": "http://localhost:8080/tools/report/report.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 6,
+      "size": 0
+    },
+    {
+      "start": 4114,
+      "end": 4280,
+      "url": "https://media-us1.digital.nuance.com/media/launch/chatLoader.min.js?codeVersion=1737615765054",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 167,
+      "size": 0
+    },
+    {
+      "start": 4209,
+      "end": 4280,
+      "url": "https://www.googletagmanager.com/gtag/js?id=AW-863311277&l=dataLayer&cx=c&gtm=45fe51n0v9179590599za200",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 70,
+      "size": 0
+    },
+    {
+      "start": 4289,
+      "end": 4403,
+      "url": "https://www.googletagmanager.com/gtag/destination?id=AW-863311277&l=dataLayer&cx=c&gtm=45be51n0v894646195za200zb9179590599",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 114,
+      "size": 0
+    },
+    {
+      "start": 4299,
+      "end": 4310,
+      "url": "https://media-us1.digital.nuance.com/media/launch/site_10005649_default_helper.js?codeVersion=1737615765054",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 11,
+      "size": 0
+    },
+    {
+      "start": 4300,
+      "end": 4488,
+      "url": "https://www.ups.com/nuance/nuance-chat.html?IFRAME&nuance-frame-ac=0",
+      "type": "iframe",
+      "entryType": "resource",
+      "duration": 188,
+      "size": 2073
+    },
+    {
+      "start": 4342,
+      "end": 4606,
+      "url": "https://684dd331.akstat.io/",
+      "type": "beacon",
+      "entryType": "resource",
+      "duration": 263,
+      "size": 300
+    },
+    {
+      "start": 4410,
+      "end": 4449,
+      "url": "https://bat.bing.com/bat.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 40,
+      "size": 0
+    },
+    {
+      "start": 4439,
+      "end": 4472,
+      "url": "https://www.googleadservices.com/pagead/conversion/863311277/?random=1737968836850&cv=11&fst=1737968836850&bg=ffffff&guid=ON&async=1&gtm=45be51n0v896817873za200zb894646195&gcd=13l3l3l3l1l1&dma=0&tag_exp=102067555~102067808~102081485~102123608&u_w=1512&u_h=982&url=https%3A%2F%2Fwww.ups.com%2Fus%2Fen%2Fhome&label=google_segment&hn=www.googleadservices.com&frm=0&tiba=UPS%20Global%20Shipping%20%26%20Logistics%20Solutions%20%7C%20Ship%20%26%20Track%20Online%20%7C%20UPS%20-%20United%20States&oid=6010856016004678&did=dYmQxMT&gdid=dYmQxMT&gtm_ee=1&npa=0&pscdl=noapi&auid=2027982344.1730983650&uaa=arm&uab=64&uafvl=Google%2520Chrome%3B131.0.6778.265%7CChromium%3B131.0.6778.265%7CNot_A%2520Brand%3B24.0.0.0&uamb=0&uam=&uap=macOS&uapv=15.1.1&uaw=0&fledge=1&capi=1&data=event%3Dpage_view&rfmt=3&fmt=4",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 33,
+      "size": 3120
+    },
+    {
+      "start": 4440,
+      "end": 4477,
+      "url": "https://td.doubleclick.net/td/rul/863311277?random=1737968836850&cv=11&fst=1737968836850&fmt=3&bg=ffffff&guid=ON&async=1&gtm=45be51n0v896817873za200zb894646195&gcd=13l3l3l3l1l1&dma=0&tag_exp=102067555~102067808~102081485~102123608&u_w=1512&u_h=982&url=https%3A%2F%2Fwww.ups.com%2Fus%2Fen%2Fhome&label=google_segment&hn=www.googleadservices.com&frm=0&tiba=UPS%20Global%20Shipping%20%26%20Logistics%20Solutions%20%7C%20Ship%20%26%20Track%20Online%20%7C%20UPS%20-%20United%20States&oid=6010856016004678&did=dYmQxMT&gdid=dYmQxMT&gtm_ee=1&npa=0&pscdl=noapi&auid=2027982344.1730983650&uaa=arm&uab=64&uafvl=Google%2520Chrome%3B131.0.6778.265%7CChromium%3B131.0.6778.265%7CNot_A%2520Brand%3B24.0.0.0&uamb=0&uam=&uap=macOS&uapv=15.1.1&uaw=0&fledge=1&capi=1&data=event%3Dpage_view&ct_cookie_present=0",
+      "type": "iframe",
+      "entryType": "resource",
+      "duration": 38,
+      "size": 316
+    },
+    {
+      "start": 4445,
+      "end": 4477,
+      "url": "https://www.googleadservices.com/pagead/conversion/863311277/?random=1737968836858&cv=11&fst=1737968836858&bg=ffffff&guid=ON&async=1&gtm=45be51n0v896817873za200zb894646195&gcd=13l3l3l3l1l1&dma=0&tag_exp=102067555~102067808~102081485~102123608&u_w=1512&u_h=982&url=https%3A%2F%2Fwww.ups.com%2Fus%2Fen%2Fhome&label=google_segment&hn=www.googleadservices.com&frm=0&tiba=UPS%20Global%20Shipping%20%26%20Logistics%20Solutions%20%7C%20Ship%20%26%20Track%20Online%20%7C%20UPS%20-%20United%20States&oid=6010856016004678&did=dYmQxMT&gdid=dYmQxMT&gtm_ee=1&npa=0&pscdl=noapi&auid=2027982344.1730983650&uaa=arm&uab=64&uafvl=Google%2520Chrome%3B131.0.6778.265%7CChromium%3B131.0.6778.265%7CNot_A%2520Brand%3B24.0.0.0&uamb=0&uam=&uap=macOS&uapv=15.1.1&uaw=0&fledge=1&capi=1&data=event%3Dconversion&rfmt=3&fmt=4",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 33,
+      "size": 3112
+    },
+    {
+      "start": 4446,
+      "end": 4482,
+      "url": "https://td.doubleclick.net/td/rul/863311277?random=1737968836858&cv=11&fst=1737968836858&fmt=3&bg=ffffff&guid=ON&async=1&gtm=45be51n0v896817873za200zb894646195&gcd=13l3l3l3l1l1&dma=0&tag_exp=102067555~102067808~102081485~102123608&u_w=1512&u_h=982&url=https%3A%2F%2Fwww.ups.com%2Fus%2Fen%2Fhome&label=google_segment&hn=www.googleadservices.com&frm=0&tiba=UPS%20Global%20Shipping%20%26%20Logistics%20Solutions%20%7C%20Ship%20%26%20Track%20Online%20%7C%20UPS%20-%20United%20States&oid=6010856016004678&did=dYmQxMT&gdid=dYmQxMT&gtm_ee=1&npa=0&pscdl=noapi&auid=2027982344.1730983650&uaa=arm&uab=64&uafvl=Google%2520Chrome%3B131.0.6778.265%7CChromium%3B131.0.6778.265%7CNot_A%2520Brand%3B24.0.0.0&uamb=0&uam=&uap=macOS&uapv=15.1.1&uaw=0&fledge=1&capi=1&data=event%3Dconversion&ct_cookie_present=0",
+      "type": "iframe",
+      "entryType": "resource",
+      "duration": 36,
+      "size": 316
+    },
+    {
+      "start": 4489,
+      "end": 4531,
+      "url": "https://zn1gqrxzvrld7vjwm-upscx.siteintercept.qualtrics.com/WRSiteInterceptEngine/?Q_ZID=ZN_1GqrxzvRld7vjWm&Q_LOC=https%3A%2F%2Fwww.ups.com%2Fus%2Fen%2Fhome",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 42,
+      "size": 4122
+    },
+    {
+      "start": 4515,
+      "end": 4559,
+      "url": "https://bat.bing.com/p/action/23000211.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 44,
+      "size": 0
+    },
+    {
+      "start": 4516,
+      "end": 4766,
+      "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/863311277/?random=2099521182&cv=11&fst=1737968836850&bg=ffffff&guid=ON&async=1&gtm=45be51n0v896817873za200zb894646195&gcd=13l3l3l3l1l1&dma=0&tag_exp=102067555~102067808~102081485~102123608&u_w=1512&u_h=982&url=https%3A%2F%2Fwww.ups.com%2Fus%2Fen%2Fhome&label=google_segment&hn=www.googleadservices.com&frm=0&tiba=UPS%20Global%20Shipping%20%26%20Logistics%20Solutions%20%7C%20Ship%20%26%20Track%20Online%20%7C%20UPS%20-%20United%20States&did=dYmQxMT&gdid=dYmQxMT&gtm_ee=1&npa=0&pscdl=noapi&auid=2027982344.1730983650&uaa=arm&uab=64&uafvl=Google%2520Chrome%3B131.0.6778.265%7CChromium%3B131.0.6778.265%7CNot_A%2520Brand%3B24.0.0.0&uamb=0&uam=&uap=macOS&uapv=15.1.1&uaw=0&fledge=1&capi=1&data=event%3Dpage_view&fmt=3&ct_cookie_present=false&eoid=Cj8KEAiA-ty8BhCb2_X6ut35iwoSKwBZ-ajIDRlduKHR4uNu3K_M9qs6GuTt8vLkFPz7k90es7tvvphlBjmVzxnw_wcB&crd=CLHBsQIIsMGxAgixw7ECCIrFsQIIwsmxAgjrxrECCKPFsQIIkMmxAgjTxbECCOzMsQIiAQFAAUonZXZlbnQtc291cmNlLCB0cmlnZ2VyO25hdmlnYXRpb24tc291cmNlWgMKAQFiBAoCAgM&pscrd=CP2AqMLXpOm69gEiEwiey565xpWLAxXfYkECHUOMF0YyAggDMgIIBDICCAcyAggIMgIICTICCAoyAggCMgIICzICCBUyAggfMgIIEzICCBI6FGh0dHBzOi8vd3d3LnVwcy5jb20vQlhDaEVJZ1ByY3ZBWVE5N1RPaXFHMXhxdkRBUkl0QUVrREdRS0xkbW02dmhuSEhwZTlVRnVRRW02YXdCNnppR0R1dGJxd3hocVZ1MjhyWFVabTc0MjNNRXBq",
+      "type": "img",
+      "entryType": "resource",
+      "duration": 250,
+      "size": 342
+    },
+    {
+      "start": 4516,
+      "end": 4766,
+      "url": "https://googleads.g.doubleclick.net/pagead/viewthroughconversion/863311277/?random=1411034261&cv=11&fst=1737968836858&bg=ffffff&guid=ON&async=1&gtm=45be51n0v896817873za200zb894646195&gcd=13l3l3l3l1l1&dma=0&tag_exp=102067555~102067808~102081485~102123608&u_w=1512&u_h=982&url=https%3A%2F%2Fwww.ups.com%2Fus%2Fen%2Fhome&label=google_segment&hn=www.googleadservices.com&frm=0&tiba=UPS%20Global%20Shipping%20%26%20Logistics%20Solutions%20%7C%20Ship%20%26%20Track%20Online%20%7C%20UPS%20-%20United%20States&did=dYmQxMT&gdid=dYmQxMT&gtm_ee=1&npa=0&pscdl=noapi&auid=2027982344.1730983650&uaa=arm&uab=64&uafvl=Google%2520Chrome%3B131.0.6778.265%7CChromium%3B131.0.6778.265%7CNot_A%2520Brand%3B24.0.0.0&uamb=0&uam=&uap=macOS&uapv=15.1.1&uaw=0&fledge=1&capi=1&data=event%3Dconversion&fmt=3&ct_cookie_present=false&eoid=Cj8KEAiA-ty8BhCb2_X6ut35iwoSKwBZ-ajIpiM3etgzXK-4fEHoU_deRWlI_QJGAjDVVdHhK09mTf4FWuVpWK3w_wcB&crd=CLHBsQIIsMGxAgixw7ECCIrFsQIIwsmxAgjrxrECCKPFsQIIkMmxAgjTxbECCOvMsQIiAQFAAUonZXZlbnQtc291cmNlLCB0cmlnZ2VyPW5hdmlnYXRpb24tc291cmNlWgMKAQFiBAoCAgM&pscrd=CPCI4OLht6f4KCITCKLynrnGlYsDFaNfQQIdnzEUxjICCAMyAggEMgIIBzICCAgyAggJMgIICjICCAIyAggLMgIIFTICCB8yAggTMgIIEjoUaHR0cHM6Ly93d3cudXBzLmNvbS9CWENoRUlnUHJjdkFZUTk3VE9pcUcxeHF2REFSSXRBRWtER1FJSDZwXy1tVk9TeFV6NTVMV0V2RE9MeFgtbmJDaDZ4bTlqTUhOY0lDVngyZTVySWl3czZtbzc",
+      "type": "img",
+      "entryType": "resource",
+      "duration": 250,
+      "size": 342
+    },
+    {
+      "start": 4533,
+      "end": 4570,
+      "url": "https://siteintercept.qualtrics.com/dxjsmodule/8.2798d9a63177f6635b5e.chunk.js?Q_CLIENTVERSION=2.23.1&Q_CLIENTTYPE=web&Q_BRANDID=www.ups.com",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 37,
+      "size": 23010
+    },
+    {
+      "start": 4566,
+      "end": 4605,
+      "url": "https://bat.bing.com/action/0?ti=23000211&Ver=2&mid=0f29349a-c940-453d-9f66-1f52e271ed7f&bo=1&sid=0bc35db0dc8511efb4c9c5f052613d0c&vid=739aac409d0611efb17e474aa1b2fb5d&vids=0&msclkid=N&page_path=%2Fus%2Fen%2Fhome&spa=Y&r=&lt=2118&p=https%3A%2F%2Fwww.ups.com%2Fus%2Fen%2Fhome&pi=918639831&lg=en-US&sw=1512&sh=982&sc=30&tl=UPS%20Global%20Shipping%20%26%20Logistics%20Solutions%20%7C%20Ship%20%26%20Track%20Online%20%7C%20UPS%20-%20United%20States&kw=UPS%20shipping,%20Package%20Tracking,%20shipping%20calculator,%20UPS%20locations&evt=pageLoad&sv=1&cdb=AQwT&rn=349397",
+      "type": "img",
+      "entryType": "resource",
+      "duration": 39,
+      "size": 0
+    },
+    {
+      "start": 4574,
+      "end": 4733,
+      "url": "https://siteintercept.qualtrics.com/WRSiteInterceptEngine/Targeting.php?Q_ZoneID=ZN_1GqrxzvRld7vjWm&Q_CLIENTVERSION=2.23.1&Q_CLIENTTYPE=web",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 160,
+      "size": 5498
+    },
+    {
+      "start": 4648,
+      "end": 4769,
+      "url": "https://mboxedge37.tt.omtrdc.net/rest/v1/delivery?client=ups&sessionId=4b133623a69444369edc50bc56d290e3&version=2.11.4",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 121,
+      "size": 606
+    },
+    {
+      "start": 4712,
+      "end": 4928,
+      "url": "https://rs.fullstory.com/rec/bundle/v2?OrgId=12PP33&UserId=f33f705a-2daf-4789-a976-330423c5a11a&SessionId=303c374f-c787-437c-9a85-8830ab459fa8&PageId=66192c95-58e9-4a57-9233-71e2949844bd&Seq=37&ClientTime=1737968837126&CompiledVersion=8d604c476b2168ed69de014ef113991e6911c2ba&PageStart=1737968648826&PrevBundleTime=1737968823962&DeltaT=8333&ContentEncoding=gzip",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 216,
+      "size": 0
+    },
+    {
+      "start": 4736,
+      "end": 4760,
+      "url": "https://siteintercept.qualtrics.com/dxjsmodule/CoreModule.js?Q_CLIENTVERSION=2.23.1&Q_CLIENTTYPE=web&Q_BRANDID=upscx",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 24,
+      "size": 30526
+    },
+    {
+      "start": 4794,
+      "end": 4821,
+      "url": "https://siteintercept.qualtrics.com/dxjsmodule/5.dd4bc1b9c573884850a9.chunk.js?Q_CLIENTVERSION=2.23.1&Q_CLIENTTYPE=web&Q_BRANDID=upscx",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 27,
+      "size": 1653
+    },
+    {
+      "start": 4795,
+      "end": 4829,
+      "url": "https://siteintercept.qualtrics.com/dxjsmodule/1.6eee8348649b17d4407e.chunk.js?Q_CLIENTVERSION=2.23.1&Q_CLIENTTYPE=web&Q_BRANDID=upscx",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 35,
+      "size": 6998
+    },
+    {
+      "start": 4795,
+      "end": 4838,
+      "url": "https://siteintercept.qualtrics.com/dxjsmodule/FeedbackButtonModule.js?Q_CLIENTVERSION=2.23.1&Q_CLIENTTYPE=web&Q_BRANDID=upscx",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 43,
+      "size": 29911
+    },
+    {
+      "start": 4795,
+      "end": 4822,
+      "url": "https://siteintercept.qualtrics.com/WRSiteInterceptEngine/Asset.php?Module=SI_bIqWU0mwn3C8qFM&Version=30&Q_ORIGIN=https://www.ups.com&Q_CLIENTVERSION=2.23.1&Q_CLIENTTYPE=web&Q_BrandTier=xAIg4q2Yee&Q_ARCACHEVERSION=21&Q_BRANDDC=iad1",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 26,
+      "size": 0
+    },
+    {
+      "start": 4795,
+      "end": 4833,
+      "url": "https://siteintercept.qualtrics.com/WRSiteInterceptEngine/Asset.php?Module=CR_5dP5CLwMUnm5N3M&Version=25&Q_InterceptID=SI_bIqWU0mwn3C8qFM&Q_ORIGIN=https://www.ups.com&Q_CLIENTVERSION=2.23.1&Q_CLIENTTYPE=web&Q_BrandTier=xAIg4q2Yee&Q_ARCACHEVERSION=21&Q_BRANDDC=iad1",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 38,
+      "size": 0
+    },
+    {
+      "start": 4846,
+      "end": 5043,
+      "url": "https://siteintercept.qualtrics.com/WRSiteInterceptEngine/?Q_Impress=1&Q_CID=CR_5dP5CLwMUnm5N3M&Q_SIID=SI_bIqWU0mwn3C8qFM&Q_ASID=AS_46218844&Q_CLIENTVERSION=2.23.1&Q_CLIENTTYPE=web&r=1737968837260",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 197,
+      "size": 0
+    },
+    {
+      "start": 4846,
+      "end": 5030,
+      "url": "https://siteintercept.qualtrics.com/WRQualtricsShared/Graphics/siteintercept/wr-dialog-close-btn-black.png",
+      "type": "img",
+      "entryType": "resource",
+      "duration": 185,
+      "size": 0
+    },
+    {
+      "start": 5057,
+      "end": 5261,
+      "url": "https://aap-p.ups.com/DG/DEFAULT/rest/rpc/555?referer=https%3A%2F%2Fwww.ups.com%2Fus%2Fen%2Fhome&bcsessionid=ab8c3d06-8469-47f6-9407-6e3490932671&bctempid=&overruleReferrer=&time=2025-01-27T10%3A07%3A17%2B01%3A00&ts=1737968837472",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 204,
+      "size": 0
+    },
+    {
+      "start": 5119,
+      "end": 5261,
+      "url": "https://aap-p.ups.com/DG/DEFAULT/rest/rpc/555?referer=https%3A%2F%2Fwww.ups.com%2Fus%2Fen%2Fhome&bcsessionid=ab8c3d06-8469-47f6-9407-6e3490932671&bctempid=&overruleReferrer=&time=2025-01-27T10%3A07%3A17%2B01%3A00&ts=1737968837534",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 142,
+      "size": 0
+    },
+    {
+      "start": 6211,
+      "end": 6381,
+      "url": "https://www.ups.com/webassets/scripts/delayed.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 170,
+      "size": 514
+    },
+    {
+      "start": 6428,
+      "end": 6698,
+      "url": "https://rs.fullstory.com/rec/bundle/v2?OrgId=12PP33&UserId=f33f705a-2daf-4789-a976-330423c5a11a&SessionId=303c374f-c787-437c-9a85-8830ab459fa8&PageId=5ef16401-fc75-4665-96f3-6d23e9c35f57&Seq=1&ClientTime=1737968838842&CompiledVersion=8d604c476b2168ed69de014ef113991e6911c2ba&PageStart=1737968836308&PrevBundleTime=0&LastActivity=1299&ContentEncoding=gzip",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 271,
+      "size": 0
+    },
+    {
+      "start": 7147,
+      "end": 7193,
+      "url": "https://media-us1.digital.nuance.com/media/launch/ci/InqFrameworkService.js?codeVersion=1737615765054",
+      "type": "link",
+      "entryType": "resource",
+      "duration": 46,
+      "size": 0
+    },
+    {
+      "start": 7147,
+      "end": 7258,
+      "url": "https://ups.inq.com/tagserver/acif/pre-acif.js",
+      "type": "link",
+      "entryType": "resource",
+      "duration": 111,
+      "size": 0
+    },
+    {
+      "start": 7148,
+      "end": 7197,
+      "url": "https://media-us1.digital.nuance.com/media/launch/acif/acif.js",
+      "type": "link",
+      "entryType": "resource",
+      "duration": 50,
+      "size": 0
+    },
+    {
+      "start": 7148,
+      "end": 7183,
+      "url": "https://media-us1.digital.nuance.com/media/sites/10005649/assets/automatons/acif-configs.js",
+      "type": "link",
+      "entryType": "resource",
+      "duration": 35,
+      "size": 0
+    },
+    {
+      "start": 8620,
+      "end": 8722,
+      "url": "https://datacloud.tealiumiq.com/tealium_ttd/main/16/i.js?jsonp=utag.ut.tealium_pass_ttdid",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 102,
+      "size": 0
+    },
+    {
+      "start": 8923,
+      "end": 9119,
+      "url": "https://rs.fullstory.com/rec/bundle/v2?OrgId=12PP33&UserId=f33f705a-2daf-4789-a976-330423c5a11a&SessionId=303c374f-c787-437c-9a85-8830ab459fa8&PageId=5ef16401-fc75-4665-96f3-6d23e9c35f57&Seq=2&ClientTime=1737968841337&CompiledVersion=8d604c476b2168ed69de014ef113991e6911c2ba&PageStart=1737968836308&PrevBundleTime=1737968839019&LastActivity=822&ContentEncoding=gzip",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 196,
+      "size": 0
+    },
+    {
+      "start": 9300,
+      "end": 9329,
+      "url": "https://region1.google-analytics.com/g/collect?v=2&tid=G-13B5QB73DW&gtm=45be51n0v894646195za200zb9179590599&_p=1737968835936&gcd=13l3l3l3l1l1&npa=0&dma=0&tag_exp=102067555~102067808~102081485~102123608~102418426&gdid=dYmQxMT&cid=656799504.1730983650&ul=en-us&are=1&frm=0&pscdl=noapi&_geo=1&_rdi=1&_s=1&sid=1737967966&sct=26&seg=1&dl=https%3A%2F%2Fwww.ups.com%2Fus%2Fen%2Fhome&dt=UPS%20Global%20Shipping%20%26%20Logistics%20Solutions%20%7C%20Ship%20%26%20Track%20Online%20%7C%20UPS%20-%20United%20States&en=page_view&_ee=1&tfd=9299",
+      "type": "fetch",
+      "entryType": "resource",
+      "duration": 30,
+      "size": 0
+    },
+    {
+      "start": 13621,
+      "end": 13661,
+      "url": "https://datacloud.tealiumiq.com/tealium_ttd/main/16/i.js?jsonp=utag.ut.tealium_pass_ttdid",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 40,
+      "size": 0
+    },
+    {
+      "start": 13924,
+      "end": 14061,
+      "url": "https://rs.fullstory.com/rec/bundle/v2?OrgId=12PP33&UserId=f33f705a-2daf-4789-a976-330423c5a11a&SessionId=303c374f-c787-437c-9a85-8830ab459fa8&PageId=5ef16401-fc75-4665-96f3-6d23e9c35f57&Seq=3&ClientTime=1737968846337&CompiledVersion=8d604c476b2168ed69de014ef113991e6911c2ba&PageStart=1737968836308&PrevBundleTime=1737968841452&LastActivity=5819&ContentEncoding=gzip",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 137,
+      "size": 0
+    },
+    {
+      "start": 18621,
+      "end": 18648,
+      "url": "https://datacloud.tealiumiq.com/tealium_ttd/main/16/i.js?jsonp=utag.ut.tealium_pass_ttdid",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 27,
+      "size": 0
+    },
+    {
+      "start": 18922,
+      "end": 19072,
+      "url": "https://rs.fullstory.com/rec/bundle/v2?OrgId=12PP33&UserId=f33f705a-2daf-4789-a976-330423c5a11a&SessionId=303c374f-c787-437c-9a85-8830ab459fa8&PageId=5ef16401-fc75-4665-96f3-6d23e9c35f57&Seq=4&ClientTime=1737968851336&CompiledVersion=8d604c476b2168ed69de014ef113991e6911c2ba&PageStart=1737968836308&PrevBundleTime=1737968846450&LastActivity=3804&ContentEncoding=gzip",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 150,
+      "size": 0
+    },
+    {
+      "start": 23619,
+      "end": 23634,
+      "url": "https://datacloud.tealiumiq.com/tealium_ttd/main/16/i.js?jsonp=utag.ut.tealium_pass_ttdid",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 14,
+      "size": 0
+    },
+    {
+      "start": 33918,
+      "end": 34098,
+      "url": "https://rs.fullstory.com/rec/bundle/v2?OrgId=12PP33&UserId=f33f705a-2daf-4789-a976-330423c5a11a&SessionId=303c374f-c787-437c-9a85-8830ab459fa8&PageId=5ef16401-fc75-4665-96f3-6d23e9c35f57&Seq=5&ClientTime=1737968866332&CompiledVersion=8d604c476b2168ed69de014ef113991e6911c2ba&PageStart=1737968836308&PrevBundleTime=1737968851446&LastActivity=1&ContentEncoding=gzip",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 180,
+      "size": 0
+    },
+    {
+      "start": 38865,
+      "end": 38926,
+      "url": "https://rum.hlx.page/.rum/1",
+      "type": "beacon",
+      "entryType": "resource",
+      "duration": 62,
+      "size": 0
+    },
+    {
+      "start": 38905,
+      "end": 38971,
+      "url": "https://rum.hlx.page/.rum/1",
+      "type": "beacon",
+      "entryType": "resource",
+      "duration": 66,
+      "size": 0
+    },
+    {
+      "start": 38930,
+      "end": 39078,
+      "url": "https://rs.fullstory.com/rec/bundle/v2?OrgId=12PP33&UserId=f33f705a-2daf-4789-a976-330423c5a11a&SessionId=303c374f-c787-437c-9a85-8830ab459fa8&PageId=5ef16401-fc75-4665-96f3-6d23e9c35f57&Seq=6&ClientTime=1737968871344&CompiledVersion=8d604c476b2168ed69de014ef113991e6911c2ba&PageStart=1737968836308&PrevBundleTime=1737968866443&LastActivity=5&ContentEncoding=gzip",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 148,
+      "size": 0
+    },
+    {
+      "start": 43922,
+      "end": 44079,
+      "url": "https://rs.fullstory.com/rec/bundle/v2?OrgId=12PP33&UserId=f33f705a-2daf-4789-a976-330423c5a11a&SessionId=303c374f-c787-437c-9a85-8830ab459fa8&PageId=5ef16401-fc75-4665-96f3-6d23e9c35f57&Seq=7&ClientTime=1737968876336&CompiledVersion=8d604c476b2168ed69de014ef113991e6911c2ba&PageStart=1737968836308&PrevBundleTime=1737968871455&LastActivity=2&ContentEncoding=gzip",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 157,
+      "size": 0
+    },
+    {
+      "start": 48930,
+      "end": 49099,
+      "url": "https://rs.fullstory.com/rec/bundle/v2?OrgId=12PP33&UserId=f33f705a-2daf-4789-a976-330423c5a11a&SessionId=303c374f-c787-437c-9a85-8830ab459fa8&PageId=5ef16401-fc75-4665-96f3-6d23e9c35f57&Seq=8&ClientTime=1737968881344&CompiledVersion=8d604c476b2168ed69de014ef113991e6911c2ba&PageStart=1737968836308&PrevBundleTime=1737968876451&LastActivity=7&ContentEncoding=gzip",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 169,
+      "size": 0
+    },
+    {
+      "start": 53927,
+      "end": 54181,
+      "url": "https://rs.fullstory.com/rec/bundle/v2?OrgId=12PP33&UserId=f33f705a-2daf-4789-a976-330423c5a11a&SessionId=303c374f-c787-437c-9a85-8830ab459fa8&PageId=5ef16401-fc75-4665-96f3-6d23e9c35f57&Seq=9&ClientTime=1737968886341&CompiledVersion=8d604c476b2168ed69de014ef113991e6911c2ba&PageStart=1737968836308&PrevBundleTime=1737968881454&LastActivity=251&ContentEncoding=gzip",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 254,
+      "size": 0
+    },
+    {
+      "start": 58922,
+      "end": 59066,
+      "url": "https://rs.fullstory.com/rec/bundle/v2?OrgId=12PP33&UserId=f33f705a-2daf-4789-a976-330423c5a11a&SessionId=303c374f-c787-437c-9a85-8830ab459fa8&PageId=5ef16401-fc75-4665-96f3-6d23e9c35f57&Seq=10&ClientTime=1737968891336&CompiledVersion=8d604c476b2168ed69de014ef113991e6911c2ba&PageStart=1737968836308&PrevBundleTime=1737968886539&LastActivity=3002&ContentEncoding=gzip",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 144,
+      "size": 0
+    },
+    {
+      "start": 63923,
+      "end": 64129,
+      "url": "https://rs.fullstory.com/rec/bundle/v2?OrgId=12PP33&UserId=f33f705a-2daf-4789-a976-330423c5a11a&SessionId=303c374f-c787-437c-9a85-8830ab459fa8&PageId=5ef16401-fc75-4665-96f3-6d23e9c35f57&Seq=11&ClientTime=1737968896337&CompiledVersion=8d604c476b2168ed69de014ef113991e6911c2ba&PageStart=1737968836308&PrevBundleTime=1737968891448&LastActivity=751&ContentEncoding=gzip",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 206,
+      "size": 0
+    },
+    {
+      "start": 68928,
+      "end": 69080,
+      "url": "https://rs.fullstory.com/rec/bundle/v2?OrgId=12PP33&UserId=f33f705a-2daf-4789-a976-330423c5a11a&SessionId=303c374f-c787-437c-9a85-8830ab459fa8&PageId=5ef16401-fc75-4665-96f3-6d23e9c35f57&Seq=12&ClientTime=1737968901341&CompiledVersion=8d604c476b2168ed69de014ef113991e6911c2ba&PageStart=1737968836308&PrevBundleTime=1737968896499&LastActivity=5752&ContentEncoding=gzip",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 152,
+      "size": 0
+    },
+    {
+      "start": 103926,
+      "end": 104095,
+      "url": "https://rs.fullstory.com/rec/bundle/v2?OrgId=12PP33&UserId=f33f705a-2daf-4789-a976-330423c5a11a&SessionId=303c374f-c787-437c-9a85-8830ab459fa8&PageId=5ef16401-fc75-4665-96f3-6d23e9c35f57&Seq=13&ClientTime=1737968936339&CompiledVersion=8d604c476b2168ed69de014ef113991e6911c2ba&PageStart=1737968836308&PrevBundleTime=1737968901452&LastActivity=330&ContentEncoding=gzip",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 169,
+      "size": 0
+    },
+    {
+      "start": 108928,
+      "end": 109084,
+      "url": "https://rs.fullstory.com/rec/bundle/v2?OrgId=12PP33&UserId=f33f705a-2daf-4789-a976-330423c5a11a&SessionId=303c374f-c787-437c-9a85-8830ab459fa8&PageId=5ef16401-fc75-4665-96f3-6d23e9c35f57&Seq=14&ClientTime=1737968941341&CompiledVersion=8d604c476b2168ed69de014ef113991e6911c2ba&PageStart=1737968836308&PrevBundleTime=1737968936482&LastActivity=3002&ContentEncoding=gzip",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 157,
+      "size": 0
+    },
+    {
+      "start": 113924,
+      "end": 114128,
+      "url": "https://rs.fullstory.com/rec/bundle/v2?OrgId=12PP33&UserId=f33f705a-2daf-4789-a976-330423c5a11a&SessionId=303c374f-c787-437c-9a85-8830ab459fa8&PageId=5ef16401-fc75-4665-96f3-6d23e9c35f57&Seq=15&ClientTime=1737968946338&CompiledVersion=8d604c476b2168ed69de014ef113991e6911c2ba&PageStart=1737968836308&PrevBundleTime=1737968941453&LastActivity=17&ContentEncoding=gzip",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 205,
+      "size": 0
+    },
+    {
+      "start": 118928,
+      "end": 119240,
+      "url": "https://rs.fullstory.com/rec/bundle/v2?OrgId=12PP33&UserId=f33f705a-2daf-4789-a976-330423c5a11a&SessionId=303c374f-c787-437c-9a85-8830ab459fa8&PageId=5ef16401-fc75-4665-96f3-6d23e9c35f57&Seq=16&ClientTime=1737968951341&CompiledVersion=8d604c476b2168ed69de014ef113991e6911c2ba&PageStart=1737968836308&PrevBundleTime=1737968946518&LastActivity=4252&ContentEncoding=gzip",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 312,
+      "size": 0
+    },
+    {
+      "start": 243679,
+      "end": 243839,
+      "url": "https://aap-p.ups.com/DG/DEFAULT/rest/rpc/555?referer=https%3A%2F%2Fwww.ups.com%2Fus%2Fen%2Fhome&bcsessionid=ab8c3d06-8469-47f6-9407-6e3490932671&bctempid=&overruleReferrer=&time=2025-01-27T10%3A11%3A16%2B01%3A00&ts=1737969076094",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 159,
+      "size": 0
+    },
+    {
+      "start": 243921,
+      "end": 244160,
+      "url": "https://rs.fullstory.com/rec/bundle/v2?OrgId=12PP33&UserId=f33f705a-2daf-4789-a976-330423c5a11a&SessionId=303c374f-c787-437c-9a85-8830ab459fa8&PageId=5ef16401-fc75-4665-96f3-6d23e9c35f57&Seq=17&ClientTime=1737969076335&CompiledVersion=8d604c476b2168ed69de014ef113991e6911c2ba&PageStart=1737968836308&PrevBundleTime=1737968951625&LastActivity=169&ContentEncoding=gzip",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 239,
+      "size": 0
+    },
+    {
+      "start": 245351,
+      "end": 245366,
+      "url": "http://localhost:8080/tools/report/report.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 15,
+      "size": 0
+    },
+    {
+      "start": 248928,
+      "end": 249077,
+      "url": "https://rs.fullstory.com/rec/bundle/v2?OrgId=12PP33&UserId=f33f705a-2daf-4789-a976-330423c5a11a&SessionId=303c374f-c787-437c-9a85-8830ab459fa8&PageId=5ef16401-fc75-4665-96f3-6d23e9c35f57&Seq=18&ClientTime=1737969081341&CompiledVersion=8d604c476b2168ed69de014ef113991e6911c2ba&PageStart=1737968836308&PrevBundleTime=1737969076543&LastActivity=3004&ContentEncoding=gzip",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 149,
+      "size": 0
+    },
+    {
+      "start": 298925,
+      "end": 299095,
+      "url": "https://rs.fullstory.com/rec/bundle/v2?OrgId=12PP33&UserId=f33f705a-2daf-4789-a976-330423c5a11a&SessionId=303c374f-c787-437c-9a85-8830ab459fa8&PageId=5ef16401-fc75-4665-96f3-6d23e9c35f57&Seq=19&ClientTime=1737969131337&CompiledVersion=8d604c476b2168ed69de014ef113991e6911c2ba&PageStart=1737968836308&PrevBundleTime=1737969081455&LastActivity=53&ContentEncoding=gzip",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 170,
+      "size": 0
+    },
+    {
+      "start": 299654,
+      "end": 299741,
+      "url": "https://rum.hlx.page/.rum/1",
+      "type": "beacon",
+      "entryType": "resource",
+      "duration": 88,
+      "size": 0
+    },
+    {
+      "start": 299654,
+      "end": 299741,
+      "url": "https://rum.hlx.page/.rum/1",
+      "type": "beacon",
+      "entryType": "resource",
+      "duration": 87,
+      "size": 0
+    },
+    {
+      "start": 299657,
+      "end": 299842,
+      "url": "https://rs.fullstory.com/rec/bundle/v2?OrgId=12PP33&UserId=f33f705a-2daf-4789-a976-330423c5a11a&SessionId=303c374f-c787-437c-9a85-8830ab459fa8&PageId=5ef16401-fc75-4665-96f3-6d23e9c35f57&Seq=20&ClientTime=1737969132072&CompiledVersion=8d604c476b2168ed69de014ef113991e6911c2ba&PageStart=1737968836308&PrevBundleTime=1737969131480&SkipResponseBody=true",
+      "type": "beacon",
+      "entryType": "resource",
+      "duration": 185,
+      "size": 0
+    },
+    {
+      "start": 299662,
+      "end": 299813,
+      "url": "https://rs.fullstory.com/rec/bundle/v2?OrgId=12PP33&UserId=f33f705a-2daf-4789-a976-330423c5a11a&SessionId=303c374f-c787-437c-9a85-8830ab459fa8&PageId=5ef16401-fc75-4665-96f3-6d23e9c35f57&Seq=20&ClientTime=1737969132076&CompiledVersion=8d604c476b2168ed69de014ef113991e6911c2ba&PageStart=1737968836308&PrevBundleTime=1737969131480&LastActivity=794&ContentEncoding=gzip",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 152,
+      "size": 0
+    },
+    {
+      "start": 302245,
+      "end": 302389,
+      "url": "https://rs.fullstory.com/rec/bundle/v2?OrgId=12PP33&UserId=f33f705a-2daf-4789-a976-330423c5a11a&SessionId=303c374f-c787-437c-9a85-8830ab459fa8&PageId=5ef16401-fc75-4665-96f3-6d23e9c35f57&Seq=20&ClientTime=1737969134659&CompiledVersion=8d604c476b2168ed69de014ef113991e6911c2ba&PageStart=1737968836308&PrevBundleTime=1737969131480&DeltaT=2584&ContentEncoding=gzip",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 145,
+      "size": 0
+    },
+    {
+      "start": 304248,
+      "end": 304387,
+      "url": "https://rs.fullstory.com/rec/bundle/v2?OrgId=12PP33&UserId=f33f705a-2daf-4789-a976-330423c5a11a&SessionId=303c374f-c787-437c-9a85-8830ab459fa8&PageId=5ef16401-fc75-4665-96f3-6d23e9c35f57&Seq=21&ClientTime=1737969136662&CompiledVersion=8d604c476b2168ed69de014ef113991e6911c2ba&PageStart=1737968836308&PrevBundleTime=1737969132198&LastActivity=5381&ContentEncoding=gzip",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 138,
+      "size": 0
+    },
+    {
+      "start": 332244,
+      "end": 332559,
+      "url": "https://c.go-mpulse.net/api/config.json?key=TADEN-6MDCS-UHH5M-YHPKQ-2GBH3&d=www.ups.com&t=5793231&v=1.792.0&sl=1&si=2e163e43-dda3-4c9c-b9fd-515a79a0745b-sqqmc0&r=&bcn=%2F%2F684dd331.akstat.io%2F&acao=&ak.ai=265833",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 316,
+      "size": 426
+    },
+    {
+      "start": 461417,
+      "end": 461582,
+      "url": "https://rs.fullstory.com/rec/bundle/v2?OrgId=12PP33&UserId=f33f705a-2daf-4789-a976-330423c5a11a&SessionId=303c374f-c787-437c-9a85-8830ab459fa8&PageId=5ef16401-fc75-4665-96f3-6d23e9c35f57&Seq=22&ClientTime=1737969293832&CompiledVersion=8d604c476b2168ed69de014ef113991e6911c2ba&PageStart=1737968836308&PrevBundleTime=1737969136773&LastActivity=162554&ContentEncoding=gzip",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 165,
+      "size": 0
+    },
+    {
+      "start": 463923,
+      "end": 464065,
+      "url": "https://rs.fullstory.com/rec/bundle/v2?OrgId=12PP33&UserId=f33f705a-2daf-4789-a976-330423c5a11a&SessionId=303c374f-c787-437c-9a85-8830ab459fa8&PageId=5ef16401-fc75-4665-96f3-6d23e9c35f57&Seq=23&ClientTime=1737969296337&CompiledVersion=8d604c476b2168ed69de014ef113991e6911c2ba&PageStart=1737968836308&PrevBundleTime=1737969293969&LastActivity=1001&ContentEncoding=gzip",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 141,
+      "size": 0
+    },
+    {
+      "start": 465456,
+      "end": 465471,
+      "url": "http://localhost:8080/tools/report/report.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 15,
+      "size": 0
+    },
+    {
+      "start": 468926,
+      "end": 469086,
+      "url": "https://rs.fullstory.com/rec/bundle/v2?OrgId=12PP33&UserId=f33f705a-2daf-4789-a976-330423c5a11a&SessionId=303c374f-c787-437c-9a85-8830ab459fa8&PageId=5ef16401-fc75-4665-96f3-6d23e9c35f57&Seq=24&ClientTime=1737969301340&CompiledVersion=8d604c476b2168ed69de014ef113991e6911c2ba&PageStart=1737968836308&PrevBundleTime=1737969296448&LastActivity=2835&ContentEncoding=gzip",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 160,
+      "size": 0
+    },
+    {
+      "start": 473014,
+      "end": 473300,
+      "url": "https://www.ups.com/webassets/icons/profile.svg",
+      "type": "img",
+      "entryType": "resource",
+      "duration": 286,
+      "size": 638
+    },
+    {
+      "start": 473924,
+      "end": 474133,
+      "url": "https://rs.fullstory.com/rec/bundle/v2?OrgId=12PP33&UserId=f33f705a-2daf-4789-a976-330423c5a11a&SessionId=303c374f-c787-437c-9a85-8830ab459fa8&PageId=5ef16401-fc75-4665-96f3-6d23e9c35f57&Seq=25&ClientTime=1737969306337&CompiledVersion=8d604c476b2168ed69de014ef113991e6911c2ba&PageStart=1737968836308&PrevBundleTime=1737969301452&LastActivity=750&ContentEncoding=gzip",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 209,
+      "size": 0
+    },
+    {
+      "start": 478348,
+      "end": 478362,
+      "url": "http://localhost:8080/tools/report/report.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 15,
+      "size": 0
+    },
+    {
+      "start": 478918,
+      "end": 479117,
+      "url": "https://rs.fullstory.com/rec/bundle/v2?OrgId=12PP33&UserId=f33f705a-2daf-4789-a976-330423c5a11a&SessionId=303c374f-c787-437c-9a85-8830ab459fa8&PageId=5ef16401-fc75-4665-96f3-6d23e9c35f57&Seq=26&ClientTime=1737969311333&CompiledVersion=8d604c476b2168ed69de014ef113991e6911c2ba&PageStart=1737968836308&PrevBundleTime=1737969306450&LastActivity=5749&ContentEncoding=gzip",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 199,
+      "size": 0
+    },
+    {
+      "start": 483921,
+      "end": 484066,
+      "url": "https://rs.fullstory.com/rec/bundle/v2?OrgId=12PP33&UserId=f33f705a-2daf-4789-a976-330423c5a11a&SessionId=303c374f-c787-437c-9a85-8830ab459fa8&PageId=5ef16401-fc75-4665-96f3-6d23e9c35f57&Seq=27&ClientTime=1737969316335&CompiledVersion=8d604c476b2168ed69de014ef113991e6911c2ba&PageStart=1737968836308&PrevBundleTime=1737969311442&LastActivity=10751&ContentEncoding=gzip",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 145,
+      "size": 0
+    },
+    {
+      "start": 487353,
+      "end": 487414,
+      "url": "https://rum.hlx.page/.rum/1",
+      "type": "beacon",
+      "entryType": "resource",
+      "duration": 61,
+      "size": 0
+    },
+    {
+      "start": 487401,
+      "end": 487458,
+      "url": "https://rum.hlx.page/.rum/1",
+      "type": "beacon",
+      "entryType": "resource",
+      "duration": 57,
+      "size": 0
+    },
+    {
+      "start": 487410,
+      "end": 487469,
+      "url": "https://rum.hlx.page/.rum/1",
+      "type": "beacon",
+      "entryType": "resource",
+      "duration": 59,
+      "size": 0
+    },
+    {
+      "start": 488918,
+      "end": 489054,
+      "url": "https://rs.fullstory.com/rec/bundle/v2?OrgId=12PP33&UserId=f33f705a-2daf-4789-a976-330423c5a11a&SessionId=303c374f-c787-437c-9a85-8830ab459fa8&PageId=5ef16401-fc75-4665-96f3-6d23e9c35f57&Seq=28&ClientTime=1737969321332&CompiledVersion=8d604c476b2168ed69de014ef113991e6911c2ba&PageStart=1737968836308&PrevBundleTime=1737969316447&LastActivity=585&ContentEncoding=gzip",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 137,
+      "size": 0
+    },
+    {
+      "start": 493477,
+      "end": 493736,
+      "url": "https://rs.fullstory.com/rec/bundle/v2?OrgId=12PP33&UserId=f33f705a-2daf-4789-a976-330423c5a11a&SessionId=303c374f-c787-437c-9a85-8830ab459fa8&PageId=5ef16401-fc75-4665-96f3-6d23e9c35f57&Seq=29&ClientTime=1737969325891&CompiledVersion=8d604c476b2168ed69de014ef113991e6911c2ba&PageStart=1737968836308&PrevBundleTime=1737969321441&SkipResponseBody=true",
+      "type": "beacon",
+      "entryType": "resource",
+      "duration": 260,
+      "size": 0
+    },
+    {
+      "start": 493483,
+      "end": 493737,
+      "url": "https://rs.fullstory.com/rec/bundle/v2?OrgId=12PP33&UserId=f33f705a-2daf-4789-a976-330423c5a11a&SessionId=303c374f-c787-437c-9a85-8830ab459fa8&PageId=5ef16401-fc75-4665-96f3-6d23e9c35f57&Seq=29&ClientTime=1737969325896&CompiledVersion=8d604c476b2168ed69de014ef113991e6911c2ba&PageStart=1737968836308&PrevBundleTime=1737969321441&LastActivity=5146&ContentEncoding=gzip",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 254,
+      "size": 0
+    },
+    {
+      "start": 494242,
+      "end": 494412,
+      "url": "https://rs.fullstory.com/rec/bundle/v2?OrgId=12PP33&UserId=f33f705a-2daf-4789-a976-330423c5a11a&SessionId=303c374f-c787-437c-9a85-8830ab459fa8&PageId=5ef16401-fc75-4665-96f3-6d23e9c35f57&Seq=30&ClientTime=1737969326657&CompiledVersion=8d604c476b2168ed69de014ef113991e6911c2ba&PageStart=1737968836308&PrevBundleTime=1737969326055&LastActivity=5911&ContentEncoding=gzip",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 170,
+      "size": 0
+    },
+    {
+      "start": 496250,
+      "end": 496385,
+      "url": "https://rs.fullstory.com/rec/bundle/v2?OrgId=12PP33&UserId=f33f705a-2daf-4789-a976-330423c5a11a&SessionId=303c374f-c787-437c-9a85-8830ab459fa8&PageId=5ef16401-fc75-4665-96f3-6d23e9c35f57&Seq=29&ClientTime=1737969328664&CompiledVersion=8d604c476b2168ed69de014ef113991e6911c2ba&PageStart=1737968836308&PrevBundleTime=1737969321441&DeltaT=2767&ContentEncoding=gzip",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 135,
+      "size": 0
+    },
+    {
+      "start": 528923,
+      "end": 529094,
+      "url": "https://rs.fullstory.com/rec/bundle/v2?OrgId=12PP33&UserId=f33f705a-2daf-4789-a976-330423c5a11a&SessionId=303c374f-c787-437c-9a85-8830ab459fa8&PageId=5ef16401-fc75-4665-96f3-6d23e9c35f57&Seq=31&ClientTime=1737969361337&CompiledVersion=8d604c476b2168ed69de014ef113991e6911c2ba&PageStart=1737968836308&PrevBundleTime=1737969326775&LastActivity=40586&ContentEncoding=gzip",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 171,
+      "size": 0
+    },
+    {
+      "start": 529951,
+      "end": 529968,
+      "url": "http://localhost:8080/tools/report/report.js",
+      "type": "script",
+      "entryType": "resource",
+      "duration": 17,
+      "size": 0
+    },
+    {
+      "start": 533926,
+      "end": 534073,
+      "url": "https://rs.fullstory.com/rec/bundle/v2?OrgId=12PP33&UserId=f33f705a-2daf-4789-a976-330423c5a11a&SessionId=303c374f-c787-437c-9a85-8830ab459fa8&PageId=5ef16401-fc75-4665-96f3-6d23e9c35f57&Seq=32&ClientTime=1737969366340&CompiledVersion=8d604c476b2168ed69de014ef113991e6911c2ba&PageStart=1737968836308&PrevBundleTime=1737969361476&LastActivity=45589&ContentEncoding=gzip",
+      "type": "xmlhttprequest",
+      "entryType": "resource",
+      "duration": 147,
+      "size": 0
+    },
+    {
+      "start": 1402,
+      "end": 1402,
+      "name": "LCP",
+      "url": "https://www.ups.com/us/en/media_141d5969c89830befe22b1efddcb54b98dadb99cb.webp?width=2000&format=webply&optimize=medium",
+      "type": "LCP",
+      "entryType": "lcp"
+    },
+    {
+      "start": 1799,
+      "end": 1799,
+      "name": "CLS 1 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 2125,
+      "end": 2125,
+      "name": "CLS 2 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 6263,
+      "end": 6263,
+      "name": "CLS 3 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 6274,
+      "end": 6274,
+      "name": "CLS 4 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 6283,
+      "end": 6283,
+      "name": "CLS 5 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 6291,
+      "end": 6291,
+      "name": "CLS 6 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 6299,
+      "end": 6299,
+      "name": "CLS 7 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 6307,
+      "end": 6307,
+      "name": "CLS 8 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 6316,
+      "end": 6316,
+      "name": "CLS 9 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 6325,
+      "end": 6325,
+      "name": "CLS 10 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 6332,
+      "end": 6332,
+      "name": "CLS 11 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 6341,
+      "end": 6341,
+      "name": "CLS 12 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 6349,
+      "end": 6349,
+      "name": "CLS 13 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 6358,
+      "end": 6358,
+      "name": "CLS 14 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 6373,
+      "end": 6373,
+      "name": "CLS 15 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 6701,
+      "end": 6701,
+      "name": "CLS 16 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 6716,
+      "end": 6716,
+      "name": "CLS 17 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 6733,
+      "end": 6733,
+      "name": "CLS 18 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 6749,
+      "end": 6749,
+      "name": "CLS 19 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 6757,
+      "end": 6757,
+      "name": "CLS 20 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 6776,
+      "end": 6776,
+      "name": "CLS 21 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 6782,
+      "end": 6782,
+      "name": "CLS 22 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 6799,
+      "end": 6799,
+      "name": "CLS 23 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 6807,
+      "end": 6807,
+      "name": "CLS 24 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 32832,
+      "end": 32832,
+      "name": "CLS 25 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 32860,
+      "end": 32860,
+      "name": "CLS 26 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 32882,
+      "end": 32882,
+      "name": "CLS 27 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 32890,
+      "end": 32890,
+      "name": "CLS 28 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 64621,
+      "end": 64621,
+      "name": "CLS 29 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 64627,
+      "end": 64627,
+      "name": "CLS 30 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 64640,
+      "end": 64640,
+      "name": "CLS 31 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 64652,
+      "end": 64652,
+      "name": "CLS 32 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 64658,
+      "end": 64658,
+      "name": "CLS 33 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 64667,
+      "end": 64667,
+      "name": "CLS 34 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 64674,
+      "end": 64674,
+      "name": "CLS 35 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 64685,
+      "end": 64685,
+      "name": "CLS 36 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 64699,
+      "end": 64699,
+      "name": "CLS 37 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 64710,
+      "end": 64710,
+      "name": "CLS 38 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 64718,
+      "end": 64718,
+      "name": "CLS 39 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 64725,
+      "end": 64725,
+      "name": "CLS 40 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 64736,
+      "end": 64736,
+      "name": "CLS 41 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 64743,
+      "end": 64743,
+      "name": "CLS 42 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 64750,
+      "end": 64750,
+      "name": "CLS 43 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 64761,
+      "end": 64761,
+      "name": "CLS 44 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 64769,
+      "end": 64769,
+      "name": "CLS 45 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 473010,
+      "end": 473010,
+      "name": "CLS 46 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 555458,
+      "end": 555458,
+      "name": "CLS 47 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 555460,
+      "end": 555460,
+      "name": "CLS 48 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 1369899,
+      "end": 1369899,
+      "name": "CLS 49 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 1452285,
+      "end": 1452285,
+      "name": "CLS 50 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 10896592,
+      "end": 10896592,
+      "name": "CLS 51 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 11369744,
+      "end": 11369744,
+      "name": "CLS 52 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 11375631,
+      "end": 11375631,
+      "name": "CLS 53 / 53",
+      "type": "CLS",
+      "entryType": "cls"
+    },
+    {
+      "start": 3408,
+      "end": 3408,
+      "name": "TBT 1 / 12",
+      "type": "TBT",
+      "entryType": "tbt",
+      "duration": 81
+    },
+    {
+      "start": 3555,
+      "end": 3555,
+      "name": "TBT 2 / 12",
+      "type": "TBT",
+      "entryType": "tbt",
+      "duration": 62
+    },
+    {
+      "start": 4146,
+      "end": 4146,
+      "name": "TBT 3 / 12",
+      "type": "TBT",
+      "entryType": "tbt",
+      "duration": 78
+    },
+    {
+      "start": 4345,
+      "end": 4345,
+      "name": "TBT 4 / 12",
+      "type": "TBT",
+      "entryType": "tbt",
+      "duration": 79
+    },
+    {
+      "start": 48442,
+      "end": 48442,
+      "name": "TBT 5 / 12",
+      "type": "TBT",
+      "entryType": "tbt",
+      "duration": 68
+    },
+    {
+      "start": 465959,
+      "end": 465959,
+      "name": "TBT 6 / 12",
+      "type": "TBT",
+      "entryType": "tbt",
+      "duration": 57
+    },
+    {
+      "start": 480367,
+      "end": 480367,
+      "name": "TBT 7 / 12",
+      "type": "TBT",
+      "entryType": "tbt",
+      "duration": 67
+    },
+    {
+      "start": 550181,
+      "end": 550181,
+      "name": "TBT 8 / 12",
+      "type": "TBT",
+      "entryType": "tbt",
+      "duration": 61
+    },
+    {
+      "start": 560111,
+      "end": 560111,
+      "name": "TBT 9 / 12",
+      "type": "TBT",
+      "entryType": "tbt",
+      "duration": 97
+    },
+    {
+      "start": 6911238,
+      "end": 6911238,
+      "name": "TBT 10 / 12",
+      "type": "TBT",
+      "entryType": "tbt",
+      "duration": 51
+    },
+    {
+      "start": 10512274,
+      "end": 10512274,
+      "name": "TBT 11 / 12",
+      "type": "TBT",
+      "entryType": "tbt",
+      "duration": 70
+    },
+    {
+      "start": 10899620,
+      "end": 10899620,
+      "name": "TBT 12 / 12",
+      "type": "TBT",
+      "entryType": "tbt",
+      "duration": 98
+    },
+    {
+      "start": 560109,
+      "end": 560109,
+      "name": "pointerup",
+      "type": "INP",
+      "entryType": "inp",
+      "duration": 120
+    },
+    {
+      "start": 560109,
+      "end": 560109,
+      "name": "mouseup",
+      "type": "INP",
+      "entryType": "inp",
+      "duration": 120
+    },
+    {
+      "start": 560109,
+      "end": 560109,
+      "name": "click",
+      "type": "INP",
+      "entryType": "inp",
+      "duration": 120
+    },
+    {
+      "start": 560109,
+      "end": 560109,
+      "name": "click",
+      "type": "INP",
+      "entryType": "inp",
+      "duration": 120
+    },
+    {
+      "start": 10899618,
+      "end": 10899618,
+      "name": "pointerup",
+      "type": "INP",
+      "entryType": "inp",
+      "duration": 128
+    },
+    {
+      "start": 10899618,
+      "end": 10899618,
+      "name": "mouseup",
+      "type": "INP",
+      "entryType": "inp",
+      "duration": 128
+    },
+    {
+      "start": 10899618,
+      "end": 10899618,
+      "name": "click",
+      "type": "INP",
+      "entryType": "inp",
+      "duration": 128
+    },
+    {
+      "start": 10899618,
+      "end": 10899618,
+      "name": "click",
+      "type": "INP",
+      "entryType": "inp",
+      "duration": 128
+    },
+    {
+      "start": 11394023,
+      "end": 11394023,
+      "name": "pointerover",
+      "type": "INP",
+      "entryType": "inp",
+      "duration": 160
+    },
+    {
+      "start": 11394023,
+      "end": 11394023,
+      "name": "pointerenter",
+      "type": "INP",
+      "entryType": "inp",
+      "duration": 160
+    },
+    {
+      "start": 11394023,
+      "end": 11394023,
+      "name": "pointerenter",
+      "type": "INP",
+      "entryType": "inp",
+      "duration": 160
+    },
+    {
+      "start": 11394023,
+      "end": 11394023,
+      "name": "pointerenter",
+      "type": "INP",
+      "entryType": "inp",
+      "duration": 160
+    },
+    {
+      "start": 11394023,
+      "end": 11394023,
+      "name": "pointerenter",
+      "type": "INP",
+      "entryType": "inp",
+      "duration": 160
+    },
+    {
+      "start": 11394023,
+      "end": 11394023,
+      "name": "pointerenter",
+      "type": "INP",
+      "entryType": "inp",
+      "duration": 160
+    },
+    {
+      "start": 11394023,
+      "end": 11394023,
+      "name": "pointerenter",
+      "type": "INP",
+      "entryType": "inp",
+      "duration": 160
+    },
+    {
+      "start": 11394023,
+      "end": 11394023,
+      "name": "pointerenter",
+      "type": "INP",
+      "entryType": "inp",
+      "duration": 160
+    },
+    {
+      "start": 11394023,
+      "end": 11394023,
+      "name": "pointerenter",
+      "type": "INP",
+      "entryType": "inp",
+      "duration": 160
+    },
+    {
+      "start": 11394023,
+      "end": 11394023,
+      "name": "pointerenter",
+      "type": "INP",
+      "entryType": "inp",
+      "duration": 160
+    },
+    {
+      "start": 11394023,
+      "end": 11394023,
+      "name": "pointerenter",
+      "type": "INP",
+      "entryType": "inp",
+      "duration": 160
+    },
+    {
+      "start": 11394023,
+      "end": 11394023,
+      "name": "pointerenter",
+      "type": "INP",
+      "entryType": "inp",
+      "duration": 160
+    },
+    {
+      "start": 11394023,
+      "end": 11394023,
+      "name": "pointerenter",
+      "type": "INP",
+      "entryType": "inp",
+      "duration": 160
+    },
+    {
+      "start": 11394023,
+      "end": 11394023,
+      "name": "pointerenter",
+      "type": "INP",
+      "entryType": "inp",
+      "duration": 160
+    },
+    {
+      "start": 11394023,
+      "end": 11394023,
+      "name": "pointerenter",
+      "type": "INP",
+      "entryType": "inp",
+      "duration": 160
+    },
+    {
+      "start": 11394023,
+      "end": 11394023,
+      "name": "pointerenter",
+      "type": "INP",
+      "entryType": "inp",
+      "duration": 160
+    },
+    {
+      "start": 11394023,
+      "end": 11394023,
+      "name": "pointerenter",
+      "type": "INP",
+      "entryType": "inp",
+      "duration": 160
+    },
+    {
+      "start": 11394023,
+      "end": 11394023,
+      "name": "mouseover",
+      "type": "INP",
+      "entryType": "inp",
+      "duration": 160
+    },
+    {
+      "start": 11394045,
+      "end": 11394045,
+      "name": "pointerout",
+      "type": "INP",
+      "entryType": "inp",
+      "duration": 168
+    },
+    {
+      "start": 11394045,
+      "end": 11394045,
+      "name": "pointerleave",
+      "type": "INP",
+      "entryType": "inp",
+      "duration": 168
+    },
+    {
+      "start": 11394045,
+      "end": 11394045,
+      "name": "pointerleave",
+      "type": "INP",
+      "entryType": "inp",
+      "duration": 168
+    },
+    {
+      "start": 11394045,
+      "end": 11394045,
+      "name": "pointerleave",
+      "type": "INP",
+      "entryType": "inp",
+      "duration": 168
+    },
+    {
+      "start": 11394045,
+      "end": 11394045,
+      "name": "pointerleave",
+      "type": "INP",
+      "entryType": "inp",
+      "duration": 168
+    },
+    {
+      "start": 11394045,
+      "end": 11394045,
+      "name": "pointerleave",
+      "type": "INP",
+      "entryType": "inp",
+      "duration": 168
+    },
+    {
+      "start": 11394045,
+      "end": 11394045,
+      "name": "pointerleave",
+      "type": "INP",
+      "entryType": "inp",
+      "duration": 168
+    },
+    {
+      "start": 11394045,
+      "end": 11394045,
+      "name": "pointerleave",
+      "type": "INP",
+      "entryType": "inp",
+      "duration": 168
+    },
+    {
+      "start": 11394045,
+      "end": 11394045,
+      "name": "pointerleave",
+      "type": "INP",
+      "entryType": "inp",
+      "duration": 168
+    },
+    {
+      "start": 11394045,
+      "end": 11394045,
+      "name": "pointerleave",
+      "type": "INP",
+      "entryType": "inp",
+      "duration": 168
+    },
+    {
+      "start": 11394045,
+      "end": 11394045,
+      "name": "pointerover",
+      "type": "INP",
+      "entryType": "inp",
+      "duration": 168
+    },
+    {
+      "start": 11394045,
+      "end": 11394045,
+      "name": "pointerenter",
+      "type": "INP",
+      "entryType": "inp",
+      "duration": 168
+    },
+    {
+      "start": 11394045,
+      "end": 11394045,
+      "name": "pointerenter",
+      "type": "INP",
+      "entryType": "inp",
+      "duration": 168
+    },
+    {
+      "start": 11394045,
+      "end": 11394045,
+      "name": "mouseout",
+      "type": "INP",
+      "entryType": "inp",
+      "duration": 168
+    },
+    {
+      "start": 11394045,
+      "end": 11394045,
+      "name": "mouseover",
+      "type": "INP",
+      "entryType": "inp",
+      "duration": 168
+    },
+    {
+      "start": 598,
+      "end": 598,
+      "name": "https://www.ups.com/assets/34cabd9b90ceb2cb6785ea730fd896f2d0453d5260d",
+      "type": "long-animation-frame",
+      "entryType": "long-animation-frame",
+      "duration": 280
+    },
+    {
+      "start": 3408,
+      "end": 3408,
+      "name": "https://tags.tiqcdn.com/utag/ups/nova/prod/utag.js",
+      "type": "long-animation-frame",
+      "entryType": "long-animation-frame",
+      "duration": 82
+    },
+    {
+      "start": 3554,
+      "end": 3554,
+      "name": "https://tags.tiqcdn.com/utag/ups/nova/prod/utag.106.js?utv=ut4.51.202410210350",
+      "type": "long-animation-frame",
+      "entryType": "long-animation-frame",
+      "duration": 89
+    },
+    {
+      "start": 4144,
+      "end": 4144,
+      "name": "TimerHandler:setInterval",
+      "type": "long-animation-frame",
+      "entryType": "long-animation-frame",
+      "duration": 80
+    },
+    {
+      "start": 4340,
+      "end": 4340,
+      "name": "TimerHandler:setTimeout",
+      "type": "long-animation-frame",
+      "entryType": "long-animation-frame",
+      "duration": 85
+    },
+    {
+      "start": 4427,
+      "end": 4427,
+      "name": "TimerHandler:setTimeout",
+      "type": "long-animation-frame",
+      "entryType": "long-animation-frame",
+      "duration": 81
+    },
+    {
+      "start": 4777,
+      "end": 4777,
+      "name": "Could not find invoker script",
+      "type": "long-animation-frame",
+      "entryType": "long-animation-frame",
+      "duration": 50
+    },
+    {
+      "start": 48442,
+      "end": 48442,
+      "name": "INPUT.onchange",
+      "type": "long-animation-frame",
+      "entryType": "long-animation-frame",
+      "duration": 79
+    },
+    {
+      "start": 245573,
+      "end": 245573,
+      "name": "PerformanceObserverCallback",
+      "type": "long-animation-frame",
+      "entryType": "long-animation-frame",
+      "duration": 54
+    },
+    {
+      "start": 465953,
+      "end": 465953,
+      "name": "PerformanceObserverCallback",
+      "type": "long-animation-frame",
+      "entryType": "long-animation-frame",
+      "duration": 71
+    },
+    {
+      "start": 480367,
+      "end": 480367,
+      "name": "TimerHandler:setTimeout",
+      "type": "long-animation-frame",
+      "entryType": "long-animation-frame",
+      "duration": 70
+    },
+    {
+      "start": 531971,
+      "end": 531971,
+      "name": "TimerHandler:setTimeout",
+      "type": "long-animation-frame",
+      "entryType": "long-animation-frame",
+      "duration": 50
+    },
+    {
+      "start": 550181,
+      "end": 550181,
+      "name": "TimerHandler:setTimeout",
+      "type": "long-animation-frame",
+      "entryType": "long-animation-frame",
+      "duration": 67
+    },
+    {
+      "start": 560111,
+      "end": 560111,
+      "name": "INPUT.onchange",
+      "type": "long-animation-frame",
+      "entryType": "long-animation-frame",
+      "duration": 101
+    },
+    {
+      "start": 1452189,
+      "end": 1452189,
+      "name": "Could not find invoker script",
+      "type": "long-animation-frame",
+      "entryType": "long-animation-frame",
+      "duration": 53
+    },
+    {
+      "start": 1452243,
+      "end": 1452243,
+      "name": "Could not find invoker script",
+      "type": "long-animation-frame",
+      "entryType": "long-animation-frame",
+      "duration": 50
+    },
+    {
+      "start": 1454752,
+      "end": 1454752,
+      "name": "PerformanceObserverCallback",
+      "type": "long-animation-frame",
+      "entryType": "long-animation-frame",
+      "duration": 53
+    },
+    {
+      "start": 10899620,
+      "end": 10899620,
+      "name": "INPUT.onchange",
+      "type": "long-animation-frame",
+      "entryType": "long-animation-frame",
+      "duration": 102
+    },
+    {
+      "start": 1402,
+      "end": 1402,
+      "name": "first-paint",
+      "type": "paint",
+      "entryType": "paint"
+    },
+    {
+      "start": 1402,
+      "end": 1402,
+      "name": "first-contentful-paint",
+      "type": "paint",
+      "entryType": "paint"
+    },
+    {
+      "start": 3933,
+      "end": 3933,
+      "name": "fbevents:start:estPageViewProcessing",
+      "type": "mark",
+      "entryType": "mark"
+    },
+    {
+      "start": 3934,
+      "end": 3934,
+      "name": "fbevents:end:estPageViewProcessing",
+      "type": "mark",
+      "entryType": "mark"
+    }
+  ]
+}
