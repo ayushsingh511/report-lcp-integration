@@ -21,6 +21,9 @@ This command runs the complete flow:
 python run.py pipeline --url <website> --device <device> --model <model>
 ```
 
+Example:
+
+
 **Options:**
 - `--url`: Website URL to analyze and optimize (required)
 - `--device`: Device type - `mobile` or `desktop` (default: mobile)
@@ -103,6 +106,8 @@ AWS_ACCESS_KEY_ID=
 AWS_SECRET_ACCESS_KEY=
 AWS_REGION=
 ```
+
+export $(cat .env | xargs)
 
 ## Demo
 
