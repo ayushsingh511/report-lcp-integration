@@ -37,9 +37,13 @@ function createMessages(pageData, useSummarized = false) {
 
   // Reset step counter before creating a new sequence of messages
   resetStepCounter();
+  
+  const enc = new Tiktoken(cl100k_base);
+  const tokenCounts = {};
 
   if (useSummarized) {
-    return [
+    // Log token counts for each component
+    const messages = [
       new SystemMessage(initializeSystem(cms)),
       new HumanMessage(cruxSummaryStep(cruxSummary)),
       new HumanMessage(psiSummaryStep(psiSummary)),
@@ -50,8 +54,25 @@ function createMessages(pageData, useSummarized = false) {
       new HumanMessage(codeStep(pageUrl, resources, 10_000)),
       new HumanMessage(actionPrompt(pageUrl, deviceType)),
     ];
+    
+    tokenCounts['System Message'] = enc.encode(messages[0].content).length;
+    tokenCounts['CRUX Summary'] = enc.encode(messages[1].content).length;
+    tokenCounts['PSI Summary'] = enc.encode(messages[2].content).length;
+    tokenCounts['Performance Summary'] = enc.encode(messages[3].content).length;
+    tokenCounts['HAR Summary'] = enc.encode(messages[4].content).length;
+    tokenCounts['HTML Content'] = enc.encode(messages[5].content).length;
+    tokenCounts['Rules'] = enc.encode(messages[6].content).length;
+    tokenCounts['Code Analysis'] = enc.encode(messages[7].content).length;
+    tokenCounts['Action Prompt'] = enc.encode(messages[8].content).length;
+    
+    console.log('\n📊 Token counts (summarized mode):');
+    Object.entries(tokenCounts).forEach(([key, value]) => {
+      console.log(`  - ${key}: ${value.toLocaleString()} tokens`);
+    });
+    
+    return messages;
   } else {
-    return [
+    const messages = [
       new SystemMessage(initializeSystem(cms)),
       new HumanMessage(cruxStep(crux)),
       new HumanMessage(psiStep(psi)),
@@ -62,6 +83,23 @@ function createMessages(pageData, useSummarized = false) {
       new HumanMessage(codeStep(pageUrl, resources)),
       new HumanMessage(actionPrompt(pageUrl, deviceType)),
     ];
+    
+    tokenCounts['System Message'] = enc.encode(messages[0].content).length;
+    tokenCounts['CRUX Data'] = enc.encode(messages[1].content).length;
+    tokenCounts['PSI Data'] = enc.encode(messages[2].content).length;
+    tokenCounts['Performance Entries'] = enc.encode(messages[3].content).length;
+    tokenCounts['HAR Data'] = enc.encode(messages[4].content).length;
+    tokenCounts['HTML Content'] = enc.encode(messages[5].content).length;
+    tokenCounts['Rules'] = enc.encode(messages[6].content).length;
+    tokenCounts['Code Analysis'] = enc.encode(messages[7].content).length;
+    tokenCounts['Action Prompt'] = enc.encode(messages[8].content).length;
+    
+    console.log('\n📊 Token counts (full mode):');
+    Object.entries(tokenCounts).forEach(([key, value]) => {
+      console.log(`  - ${key}: ${value.toLocaleString()} tokens`);
+    });
+    
+    return messages;
   }
 }
 
@@ -79,17 +117,27 @@ async function invokeLLM(llm, pageData, model, useSummarized = false) {
   // Calculate token usage
   const enc = new Tiktoken(cl100k_base);
   const tokensLength = messages.map((m) => enc.encode(m.content).length).reduce((a, b) => a + b, 0);
-  console.log(`Prompt Tokens${useSummarized ? ' (simplified)' : ''}:`, tokensLength);
+  console.log(`\n📈 Total Prompt Tokens${useSummarized ? ' (simplified)' : ''}:`, tokensLength.toLocaleString());
+  console.log(`📉 Token Limit for ${model}: Input=${tokenLimits.input.toLocaleString()}, Output=${tokenLimits.output.toLocaleString()}`);
+  console.log(`📊 Usage: ${((tokensLength / tokenLimits.input) * 100).toFixed(1)}% of input limit`);
 
   // Check if we need to switch to summarized version
   if (!useSummarized && tokensLength > (tokenLimits.input - tokenLimits.output) * .9) {
-    console.log('Context window limit hit. Trying with summarized prompt...');
+    console.log('\n⚠️  Context window limit hit. Trying with summarized prompt...');
     return invokeLLM(llm, pageData, model, true);
   }
 
   try {
+    console.log(`\n🤖 Sending request to ${model}...`);
+    const startTime = Date.now();
+    
     // Direct invocation
     const result = await llm.invoke(messages);
+    const endTime = Date.now();
+    const duration = ((endTime - startTime) / 1000).toFixed(1);
+    
+    console.log(`✅ Response received in ${duration}s`);
+    
     cacheResults(pageUrl, deviceType, 'report', result, '', model);
     const path = cacheResults(pageUrl, deviceType, 'report', result.content, '', model);
     console.log('✅ CWV report generated at:', path);
@@ -117,18 +165,27 @@ export default async function runPrompt(pageUrl, deviceType, options = {}) {
   // Get model from options or use default
   const model = options.model || DEFAULT_MODEL;
   
+  console.log(`\n🔍 Starting report generation for ${pageUrl}`);
+  console.log(`📱 Device: ${deviceType}`);
+  console.log(`🤖 Model: ${model}`);
+  
   // Check cache first if not skipping
   let result;
   if (!options.skipCache) {
+    console.log('\n📂 Checking cache...');
     result = getCachedResults(pageUrl, deviceType, 'report', '', model);
     if (result) {
       const path = getCachePath(pageUrl, deviceType, 'report', '', true, model);
-      console.log('Report already exists at', path);
+      console.log('✅ Report already exists at', path);
       return result;
     }
+    console.log('❌ No cached report found');
   }
 
   // Perform data collection before running the model, so we don't waste calls if an error occurs
+  console.log('\n📥 Starting data collection...');
+  const startTime = Date.now();
+  
   const {
     har,
     harSummary,
@@ -142,19 +199,27 @@ export default async function runPrompt(pageUrl, deviceType, options = {}) {
     fullHtml,
     jsApi,
   } = await collectArtifacts(pageUrl, deviceType, options);
+  
+  const collectionTime = ((Date.now() - startTime) / 1000).toFixed(1);
+  console.log(`✅ Data collection completed in ${collectionTime}s`);
 
+  console.log('\n📋 Processing rules...');
+  const rulesStartTime = Date.now();
   const report = merge(pageUrl, deviceType);
   const { summary: rulesSummary, fromCache } = await applyRules(pageUrl, deviceType, options, { crux, psi, har, perfEntries, resources, fullHtml, jsApi, report });
+  const rulesTime = ((Date.now() - rulesStartTime) / 1000).toFixed(1);
+  
   if (fromCache) {
-    console.log('✓ Loaded rules from cache. Estimated token size: ~', estimateTokenSize(rulesSummary));
+    console.log(`✓ Loaded rules from cache in ${rulesTime}s. Estimated token size: ~`, estimateTokenSize(rulesSummary));
   } else {
-    console.log('✅ Processed rules. Estimated token size: ~', estimateTokenSize(rulesSummary));
+    console.log(`✅ Processed rules in ${rulesTime}s. Estimated token size: ~`, estimateTokenSize(rulesSummary));
   }
 
   const cms = detectAEMVersion(har.log.entries[0].headers, fullHtml);
-  console.log('AEM Version:', cms);
+  console.log('🏢 AEM Version:', cms);
 
   // Create LLM instance using the factory
+  console.log('\n🔧 Initializing LLM...');
   const llm = LLMFactory.createLLM(model, options.llmOptions || {});
 
   // Organize all data into one object for easier passing
@@ -165,5 +230,6 @@ export default async function runPrompt(pageUrl, deviceType, options = {}) {
   };
 
   // Invoke LLM and handle retries automatically
+  console.log('\n🚀 Generating performance report...');
   return invokeLLM(llm, pageData, model, false);
 }

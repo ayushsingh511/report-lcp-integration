@@ -17,7 +17,7 @@ else:
 
 from agent.src.browser_navigator import BrowserNavigator
 from agent.src.code_apply import apply_code_changes, parse_yaml_performance_report, convert_to_yaml
-from agent.src.utils import read_report_with_check
+from agent.src.utils import read_report_with_check, url_to_folder_name
 from crewai import LLM
 
 
@@ -70,8 +70,8 @@ class ReportApplyFlow:
             await navigator.setup()
             
             # Create output directory structure
-            root_hostname = urlparse(self.url).hostname
-            self.output_dir = navigator.ensure_output_dirs(root_hostname)
+            folder_name = url_to_folder_name(self.url)
+            self.output_dir = navigator.ensure_output_dirs(folder_name)
             
             # Navigate and collect performance data
             perf_data, metrics, response = await navigator.eval_performance(self.output_dir)

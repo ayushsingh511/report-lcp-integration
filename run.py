@@ -15,6 +15,9 @@ import shutil
 # Add the current directory to Python path
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
+# Import url_to_folder_name after adding to path
+from agent.src.utils import url_to_folder_name
+
 def run_report(args):
     """Run the JavaScript report generation tool"""
     cmd = [
@@ -219,7 +222,7 @@ def run_pipeline(args):
         print("\n✅ Pipeline completed successfully!")
         print("\n📈 Summary:")
         print(f"- Report: {report_path}")
-        print(f"- Optimized assets: output/{urlparse(args.url).hostname}/")
+        print(f"- Optimized assets: output/{url_to_folder_name(args.url)}/")
         print(f"- Git branches created: perf-fix-1 through perf-fix-{suggestions_count}")
         
         # Save performance results to CSV
@@ -229,7 +232,7 @@ def run_pipeline(args):
             final_output_dir.mkdir(exist_ok=True)
             
             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-            hostname = urlparse(args.url).hostname
+            hostname = url_to_folder_name(args.url)
             
             # Create domain-specific subdirectory
             domain_dir = final_output_dir / hostname
@@ -267,7 +270,7 @@ def run_pipeline(args):
                 'model': args.model,
                 'timestamp': timestamp,
                 'report_path': report_path,
-                'output_directory': f"output/{hostname}/",
+                'output_directory': f"output/{url_to_folder_name(args.url)}/",
                 'performance_results': performance_results,
                 'suggestions_count': suggestions_count
             }

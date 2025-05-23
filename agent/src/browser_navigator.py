@@ -7,6 +7,9 @@ import json
 from pathlib import Path
 from urllib.parse import urlparse, urljoin
 
+# Import the new function
+from agent.src.utils import url_to_folder_name
+
 # Device configurations
 CONFIGS = {
     'desktop': {
@@ -126,7 +129,8 @@ class BrowserNavigator:
                 if request.resource_type in ["script", "stylesheet"]:
                     if self.serve_cached_assets and resource_hostname == root_hostname:
                         # load the cached asset and serve it
-                        output_dir = self.ensure_output_dirs(root_hostname)
+                        folder_name = url_to_folder_name(self.url)
+                        output_dir = self.ensure_output_dirs(folder_name)
                         path = urlparse(request.url).path.lstrip('/')
                         full_path = output_dir / "assets" / path
                         cached_asset_exists = full_path.exists()
@@ -147,8 +151,8 @@ class BrowserNavigator:
                         print(f"Skipping {request.url} because it's from another domain.")
 
                     if self.auto_save_assets and resource_hostname == root_hostname:
-                        root_hostname = urlparse(self.url).hostname
-                        output_dir = self.ensure_output_dirs(root_hostname)
+                        folder_name = url_to_folder_name(self.url)
+                        output_dir = self.ensure_output_dirs(folder_name)
                         path = urlparse(request.url).path.lstrip('/')
                         full_path = output_dir / "assets" / path
                         full_path.parent.mkdir(parents=True, exist_ok=True)
@@ -228,8 +232,8 @@ async def navigate_to_url(url: str, device: str = 'desktop', headless: bool = Fa
                                      serve_cached_assets=False)
         await navigator.setup()
 
-        root_hostname = urlparse(url).hostname
-        output_dir = navigator.ensure_output_dirs(root_hostname)
+        folder_name = url_to_folder_name(url)
+        output_dir = navigator.ensure_output_dirs(folder_name)
 
         # inject performance report script
         perf_data, metrics, response = await navigator.eval_performance(output_dir=output_dir)

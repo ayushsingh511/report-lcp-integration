@@ -8,6 +8,7 @@ import json
 from playwright.async_api import async_playwright
 from perf_crew import PerfCrew
 from agent.src.browser_navigator import BrowserNavigator
+from agent.src.utils import url_to_folder_name
 from urllib.parse import urlparse, urljoin
 import datetime
 
@@ -36,7 +37,7 @@ class PerfCrewFlow(Flow[PerfCrewFlowState]):
                                         auto_save_assets=True)
             await navigator.setup()
 
-            root_hostname = urlparse(url).hostname
+            root_hostname = url_to_folder_name(url)
             output_dir = navigator.ensure_output_dirs(root_hostname)
 
             # inject performance report script
@@ -79,7 +80,7 @@ class PerfCrewFlow(Flow[PerfCrewFlowState]):
                                         serve_cached_assets=True)
             await navigator.setup()
 
-            root_hostname = urlparse(url).hostname
+            root_hostname = url_to_folder_name(url)
             output_dir = navigator.ensure_output_dirs(root_hostname)
 
             # inject performance report script

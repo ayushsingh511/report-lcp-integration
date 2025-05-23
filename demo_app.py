@@ -8,6 +8,11 @@ import pandas as pd
 from datetime import datetime
 import re
 from urllib.parse import urlparse
+import sys
+
+# Add parent directory to path to import from agent
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+from agent.src.utils import url_to_folder_name
 
 # Page configuration
 st.set_page_config(
@@ -239,7 +244,7 @@ with col1:
                             final_output_dir.mkdir(exist_ok=True)
                             
                             timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
-                            hostname = urlparse(url).hostname or "unknown"
+                            hostname = url_to_folder_name(url)
                             
                             # Create domain-specific subdirectory
                             domain_dir = final_output_dir / hostname

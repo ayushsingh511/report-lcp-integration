@@ -52,14 +52,6 @@ python run.py apply --report <report-file> --url <website>
 - `--device`: Device type for testing (default: desktop)
 - `--headless`: Run browser in headless mode
 
-## 📦 Prerequisites
-
-- Node.js (v14 or higher)
-- Python 3.8+
-- Git
-- API Keys:
-  - Google PageSpeed Insights API key
-  - Azure OpenAI API access (or other LLM providers)
 
 ## 🛠️ Installation
 
@@ -112,30 +104,7 @@ AWS_SECRET_ACCESS_KEY=
 AWS_REGION=
 ```
 
-## 📄 Output Files
-
-After running the pipeline, all results are saved to `final_output/<hostname>/`:
-
-```
-final_output/
-└── example.com/
-    ├── performance_results_20240523_121501.csv
-    ├── optimization_summary_20240523_121501.json
-    ├── parsed_suggestions_20240523_121501.json
-    └── suggestions_20240523_121501.yaml
-```
-
-**Files include:**
-- **`performance_results_<timestamp>.csv`** - LCP scores and improvements
-- **`optimization_summary_<timestamp>.json`** - Complete run metadata
-- **`parsed_suggestions_<timestamp>.json`** - Structured AI suggestions
-- **`suggestions_<timestamp>.yaml`** - Intermediate YAML format
-
-The modified website assets remain in `output/<hostname>/` organized in git branches.
-
 ## Demo
-
-For team demonstrations, Flow includes a web-based UI built with Streamlit:
 
 ```bash
 # Install Streamlit if needed
@@ -146,3 +115,25 @@ streamlit run demo_app.py
 ```
 
 Access the UI at http://localhost:8501 after running the command.
+
+## 📄 Output Files
+
+After running the pipeline, all results are saved to `final_output/<folder_name>/`:
+
+```
+final_output/
+├── example.com/                              # https://example.com
+│   └── performance_results_20240523_121501.csv
+├── example.com_products/                     # https://example.com/products
+│   └── performance_results_20240523_142030.csv
+└── example.com_products_item-123/            # https://example.com/products/item-123
+    └── performance_results_20240523_153045.csv
+```
+
+**Files include:**
+- **`performance_results_<timestamp>.csv`** - LCP scores and improvements
+- **`optimization_summary_<timestamp>.json`** - Complete run metadata
+- **`parsed_suggestions_<timestamp>.json`** - Structured AI suggestions
+- **`suggestions_<timestamp>.yaml`** - Intermediate YAML format
+
+The modified website assets remain in `output/<folder_name>/` organized in git branches.
