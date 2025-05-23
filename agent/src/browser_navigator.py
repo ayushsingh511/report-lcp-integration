@@ -114,52 +114,69 @@ class BrowserNavigator:
     async def setup_route_handler(self, page, inject_script=None):
         """Set up route handling for JavaScript interception"""
         async def handle_js_css(route):
-            request = route.request
-            response = await route.fetch()
-            headers = {**response.headers}
-            headers['Timing-Allow-Origin'] = '*'
+            try:
+                request = route.request
+                response = await route.fetch()
+                headers = {**response.headers}
+                headers['Timing-Allow-Origin'] = '*'
 
-            resource_hostname = urlparse(request.url).hostname
-            root_hostname = urlparse(self.url).hostname
+                resource_hostname = urlparse(request.url).hostname
+                root_hostname = urlparse(self.url).hostname
 
-            if request.resource_type in ["script", "stylesheet"]:
-                if self.serve_cached_assets and resource_hostname == root_hostname:
-                    # load the cached asset and serve it
-                    output_dir = self.ensure_output_dirs(root_hostname)
-                    path = urlparse(request.url).path.lstrip('/')
-                    full_path = output_dir / "assets" / path
-                    cached_asset_exists = full_path.exists()
-                    if cached_asset_exists:
-                        print(f"Serving cached asset from: {full_path}")
-                        with open(full_path, "r", encoding='utf-8') as f:
-                            body = f.read().encode('utf-8')
+                if request.resource_type in ["script", "stylesheet"]:
+                    if self.serve_cached_assets and resource_hostname == root_hostname:
+                        # load the cached asset and serve it
+                        output_dir = self.ensure_output_dirs(root_hostname)
+                        path = urlparse(request.url).path.lstrip('/')
+                        full_path = output_dir / "assets" / path
+                        cached_asset_exists = full_path.exists()
+                        if cached_asset_exists:
+                            print(f"Serving cached asset from: {full_path}")
+                            with open(full_path, "r", encoding='utf-8') as f:
+                                body = f.read().encode('utf-8')
 
-                        return await route.fulfill(
-                            status=200,
-                            headers=headers,
-                            body=body
-                        )   
-                        
-                body = await response.body()
-                
-                if self.auto_save_assets and resource_hostname != root_hostname:
-                    print(f"Skipping {request.url} because it's from another domain.")
+                            return await route.fulfill(
+                                status=200,
+                                headers=headers,
+                                body=body
+                            )   
+                            
+                    body = await response.body()
+                    
+                    if self.auto_save_assets and resource_hostname != root_hostname:
+                        print(f"Skipping {request.url} because it's from another domain.")
 
-                if self.auto_save_assets and resource_hostname == root_hostname:
-                    root_hostname = urlparse(self.url).hostname
-                    output_dir = self.ensure_output_dirs(root_hostname)
-                    path = urlparse(request.url).path.lstrip('/')
-                    full_path = output_dir / "assets" / path
-                    full_path.parent.mkdir(parents=True, exist_ok=True)
-                    with open(full_path, "wb") as f:
-                        f.write(body)
-                        print(f"Saved file: {full_path}.")
+                    if self.auto_save_assets and resource_hostname == root_hostname:
+                        root_hostname = urlparse(self.url).hostname
+                        output_dir = self.ensure_output_dirs(root_hostname)
+                        path = urlparse(request.url).path.lstrip('/')
+                        full_path = output_dir / "assets" / path
+                        full_path.parent.mkdir(parents=True, exist_ok=True)
+                        with open(full_path, "wb") as f:
+                            f.write(body)
+                            print(f"Saved file: {full_path}.")
 
-                await route.fulfill(
-                    status=response.status,
-                    headers=headers,
-                    body=body
-                )
+                    await route.fulfill(
+                        status=response.status,
+                        headers=headers,
+                        body=body
+                    )
+            except Exception as e:
+                # Handle cases where browser/page is closed
+                if "Target page, context or browser has been closed" in str(e):
+                    # Silently ignore - this is expected during shutdown
+                    pass
+                elif "Target closed" in str(e):
+                    # Another variant of the closed error
+                    pass
+                else:
+                    # Log other unexpected errors
+                    print(f"Error in route handler: {str(e)}")
+                    # Try to abort the route if possible
+                    try:
+                        await route.abort()
+                    except:
+                        pass
 
         await page.route("**/*.js", handle_js_css)
         await page.route("**/*.css", handle_js_css)
@@ -243,6 +260,9 @@ async def navigate_to_url(url: str, device: str = 'desktop', headless: bool = Fa
         if not headless:
             print("\nPress Enter to close the browser...")
             await asyncio.get_event_loop().run_in_executor(None, input)
+        else:
+            # Allow time for any pending requests to complete
+            await asyncio.sleep(0.5)
             
     except Exception as e:
         print(f"Error: {str(e)}")

@@ -2,7 +2,7 @@ import json
 import os, re
 import yaml
 from crewai import LLM
-from src.utils import read_report_with_check
+from agent.src.utils import read_report_with_check
 
 # Prompt engineering for structured extraction
 PROMPT = """

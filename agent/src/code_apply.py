@@ -4,8 +4,8 @@ import uuid
 import argparse
 import yaml
 from crewai import LLM
-from src.utils import read_report_with_check
-from src.parse_report import convert_to_yaml, parse_yaml_performance_report
+from agent.src.utils import read_report_with_check
+from agent.src.parse_report import convert_to_yaml, parse_yaml_performance_report
 from aider.io import InputOutput
 from aider.models import Model
 from aider.coders.context_coder import ContextCoder

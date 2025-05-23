@@ -9,6 +9,9 @@ node_modules/
 .cache/
 reports
 
+# Output directory (contains optimized assets with git repos)
+output/
+
 # Reports directory - you may want to commit some reports
 # Uncomment the line below if you want to ignore all reports
 # reports/

@@ -9,11 +9,15 @@ from typing import Dict, Any, List
 
 # Load environment variables from .env file
 from dotenv import load_dotenv
-load_dotenv(dotenv_path="../.env")
+# Try both paths - from agent dir and from parent dir
+if os.path.exists("../.env"):
+    load_dotenv(dotenv_path="../.env")
+else:
+    load_dotenv(dotenv_path=".env")
 
-from src.browser_navigator import BrowserNavigator
-from src.code_apply import apply_code_changes, parse_yaml_performance_report, convert_to_yaml
-from src.utils import read_report_with_check
+from agent.src.browser_navigator import BrowserNavigator
+from agent.src.code_apply import apply_code_changes, parse_yaml_performance_report, convert_to_yaml
+from agent.src.utils import read_report_with_check
 from crewai import LLM
 
 
@@ -83,6 +87,9 @@ class ReportApplyFlow:
             
             # Initialize git repo in output directory
             self._init_git_repo()
+            
+            # Allow time for any pending requests to complete
+            await asyncio.sleep(0.5)
             
             return perf_data, metrics
             
@@ -165,6 +172,9 @@ class ReportApplyFlow:
             lcp_score = self._extract_lcp_score(perf_data)
             
             print(f"✅ Re-test complete. LCP: {lcp_score}ms")
+            
+            # Allow time for any pending requests to complete
+            await asyncio.sleep(0.5)
             
             return perf_data, metrics, lcp_score
             

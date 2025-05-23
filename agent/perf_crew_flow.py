@@ -7,11 +7,11 @@ import asyncio
 import json
 from playwright.async_api import async_playwright
 from perf_crew import PerfCrew
-from src.browser_navigator import BrowserNavigator
+from agent.src.browser_navigator import BrowserNavigator
 from urllib.parse import urlparse, urljoin
 import datetime
 
-from src.lcp_filter_tool import LCPFilterTool
+from agent.src.lcp_filter_tool import LCPFilterTool
 import uuid
 from pydantic import Field
 
