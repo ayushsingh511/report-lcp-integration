@@ -107,7 +107,11 @@ AWS_SECRET_ACCESS_KEY=
 AWS_REGION=
 ```
 
+
+Export all the env variables to terminal.
+```
 export $(cat .env | xargs)
+```
 
 ## Demo
 
@@ -121,24 +125,14 @@ streamlit run demo_app.py
 
 Access the UI at http://localhost:8501 after running the command.
 
-## 📄 Output Files
+## 📄 Final Output Files
 
 After running the pipeline, all results are saved to `final_output/<folder_name>/`:
-
-```
-final_output/
-├── example.com/                              # https://example.com
-│   └── performance_results_20240523_121501.csv
-├── example.com_products/                     # https://example.com/products
-│   └── performance_results_20240523_142030.csv
-└── example.com_products_item-123/            # https://example.com/products/item-123
-    └── performance_results_20240523_153045.csv
-```
 
 **Files include:**
 - **`performance_results_<timestamp>.csv`** - LCP scores and improvements
 - **`optimization_summary_<timestamp>.json`** - Complete run metadata
-- **`parsed_suggestions_<timestamp>.json`** - Structured AI suggestions
+- **`parsed_suggestions_<timestamp>.json`** - Structured suggestions
 - **`suggestions_<timestamp>.yaml`** - Intermediate YAML format
 
 The modified website assets remain in `output/<folder_name>/` organized in git branches.
